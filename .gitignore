@@ -29,6 +29,9 @@ exit
 !Enqm/ProofOfActivity.hs
 !Enqm/ProofOfActivity/PowVerification
 !Enqm/ProofOfActivity/PowVerification/PvcnHashLoop.hs
+!Enqm/ProofOfStake
+!Enqm/ProofOfStake.hs
+!Enqm/ProofOfStake/Minimal.hs
 !Enqm/ProofOfWork
 !Enqm/ProofOfWork.hs
 !Enqm/ProofOfWork/PvcnHashLoop.hs
