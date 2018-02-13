@@ -6,7 +6,7 @@ drwxr-xr-x  1  user  user  48     Feb  13  22:33  Enqm/Nell
 -rw-r--r--  1  user  user  104    Feb  13  22:33  Enqm/Nell/Stereonell.hs
 drwxr-xr-x  1  user  user  36     Feb  13  22:23  Enqm/Block
 -rw-r--r--  1  user  user  25     Feb  13  22:19  Enqm/Block.hs
--rw-r--r--  1  user  user  31     Feb  13  22:23  Enqm/Block/Micro.hs
+-rw-r--r--  1  user  user  31     Feb  13  22:23  [Enqm/Block/Micro.hs]
 -rw-r--r--  1  user  user  32     Feb  13  22:23  Enqm/Block/Classic.hs
 drwxr-xr-x  1  user  user  84     Feb  13  22:38  Enqm/Model
 -rw-r--r--  1  user  user  36     Feb  13  22:38  Enqm/Model/Migration.hs
