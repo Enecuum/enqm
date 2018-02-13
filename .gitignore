@@ -27,6 +27,7 @@ exit
 !Enqm/DirectAcyclicHyperGraph/Simple2.hs
 !Enqm/DirectAcyclicHyperGraph/Simple.hs
 !Enqm.hs
+!Enqm/ProofOfWork.hs
 !Enqm/TransactionsAndSignatures.hs
 .
 !Enqm
@@ -35,4 +36,5 @@ exit
 !Enqm/DirectAcyclicHyperGraph/Simple2.hs
 !Enqm/DirectAcyclicHyperGraph/Simple.hs
 !Enqm.hs
+!Enqm/ProofOfWork.hs
 !Enqm/TransactionsAndSignatures.hs
