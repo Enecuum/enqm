@@ -43,4 +43,7 @@ exit
 !Enqm/ProofOfWork
 !Enqm/ProofOfWork.hs
 !Enqm/ProofOfWork/PvcnHashLoop.hs
+!Enqm/Statistics/Complexity
+!Enqm/Statistics/Complexity/ProofOfWork.hs
+!Enqm/Statistics.hs
 !Enqm/TransactionsAndSignatures.hs
