@@ -1,4 +1,4 @@
-'''
+<pre>
 drwxr-xr-x  1  user  user  720    Feb  13  23:11  Enqm
 -rw-r--r--  1  user  user  20     Feb  13  18:17  Enqm.hs
 drwxr-xr-x  1  user  user  48     Feb  13  22:33  Enqm/Nell
@@ -69,4 +69,4 @@ drwxr-xr-x  1  user  user  48     Feb  14  00:59  Enqm/DirectAcyclicHyperGraph
 -rw-r--r--  1  user  user  21140  Feb  13  18:36  Enqm/DirectAcyclicHyperGraph.hs
 -rw-r--r--  1  user  user  1722   Feb  14  00:59  Enqm/DirectAcyclicHyperGraph/PatriciaTreeWithIORef.hs
 -rw-r--r--  1  user  user  420    Feb  13  19:02  Enqm/TransactionsAndSignatures.hs
-'''
+</pre>
