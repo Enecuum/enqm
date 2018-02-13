@@ -34,6 +34,9 @@ exit
 !Enqm/Macroblock.hs
 !Enqm/Macroblock/Publicators.hs
 !Enqm/Macroblock/Security.hs
+!Enqm/Model
+!Enqm/Model/Cancellation.hs
+!Enqm/Model/Prolongation.hs
 !Enqm/Nell
 !Enqm/Nell/Sharnell.hs
 !Enqm/Nell/Stereonell.hs
