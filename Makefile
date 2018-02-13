@@ -5,7 +5,7 @@ quickdev := $(shell mktemp -u "quickdev-`date '+%Y%m%d%H%M%S'`-XXXXX")
 default: gitignore quickdevCommitAndPush
 
 gitignore:
-	./.gitignore
+	@./.gitignore
 
 quickdevCommitAndPush:
 	@git branch | grep -q '^\* quickdev.*' && git add -Av && git commit -a --allow-empty-message --no-edit && echo commited && git push --all > /dev/null 2> /dev/null && echo pushed || echo not pushed
@@ -19,7 +19,7 @@ make-quickdev:
 	git branch $(quickdev)
 	git checkout $(quickdev)
 
-list:
+list: gitignore
 	@awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore | sed 's,^!,,' | awk '{ system("ls -dla " $$0); }' | column -t
 
 

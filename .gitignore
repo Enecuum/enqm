@@ -45,6 +45,14 @@ exit
 !Enqm/Nell
 !Enqm/Nell/Sharnell.hs
 !Enqm/Nell/Stereonell.hs
+!Enqm/Network
+!Enqm/Network/HolePunching
+!Enqm/Network/HolePunching/TCP.hs
+!Enqm/Network/HolePunching/UDP.hs
+!Enqm/Network.hs
+!Enqm/Network/P2P
+!Enqm/Network/P2P/DHT.hs
+!Enqm/Network/P2P.hs
 !Enqm/ProofOfActivity.hs
 !Enqm/ProofOfActivity/PowVerification
 !Enqm/ProofOfActivity/PowVerification/PvcnHashLoop.hs
