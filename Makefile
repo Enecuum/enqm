@@ -1,6 +1,6 @@
 .PHONY: default gitignore quickdevCommitAndPush history quickdev make-quickdev
 
-quickdev := $(shell mktemp "quickdev-`date '+%Y%m%d%H%M%S'`-XXXXX")
+quickdev := $(shell mktemp -u "quickdev-`date '+%Y%m%d%H%M%S'`-XXXXX")
 
 default: gitignore quickdevCommitAndPush
 
