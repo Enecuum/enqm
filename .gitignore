@@ -89,5 +89,5 @@ exit
 !Enqm/ProofOfActivity/PowVerification/PvcnHashLoop.hs
 !Enqm/DirectAcyclicHyperGraph
 !Enqm/DirectAcyclicHyperGraph.hs
-!Enqm/DirectAcyclicHyperGraph/Simple.hs
+!Enqm/DirectAcyclicHyperGraph/PatriciaTreeWithIORef.hs
 !Enqm/TransactionsAndSignatures.hs

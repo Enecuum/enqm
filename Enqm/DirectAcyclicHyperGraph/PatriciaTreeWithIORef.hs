@@ -1,4 +1,4 @@
-module Enqm.DirectedAcyclicHyperGraph.Simple where
+module Enqm.DirectedAcyclicHyperGraph.PatriciaTreeWithIORef where
 
 
 ----------------------------------------------------------------------
