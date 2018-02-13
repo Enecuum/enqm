@@ -24,7 +24,8 @@ list: gitignore
 
 
 README: gitignore
-	@echo > README.md
+	@awk '/^\| Size \|    \| Date \|    \| Path \|/{ a = 1 } { if (!(a==1)) { print $0 } }' < README.md > /tmp/.$(quickdev)
+	@cat /tmp/.$(quickdev) > README.md
 	@echo "|    |    |    |    |       |" >> README.md
 	@echo "|----|----|----|----|-------|" >> README.md
 	
