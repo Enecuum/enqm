@@ -26,5 +26,7 @@ exit
 !Enqm/DirectAcyclicHyperGraph/Simple2.hs
 !Enqm/DirectAcyclicHyperGraph/Simple.hs
 !Enqm.hs
+!Enqm/ProofOfWork
 !Enqm/ProofOfWork.hs
+!Enqm/ProofOfWork/PvcnHashLoop.hs
 !Enqm/TransactionsAndSignatures.hs
