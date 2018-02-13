@@ -1,10 +1,10 @@
 
-
 {-# LANGUAGE CPP #-}
 
 -- (c) 1999-2005 by Martin Erwig [see file COPYRIGHT]
+-- (c) 2018 by code Dotation to Enqm
 -- | Static and Dynamic Inductive Graphs
-module Data.Graph.Inductive.Graph (
+module Enqm.DirectAcyclicHyperGraph (
     -- * General Type Defintions
     -- ** Node and Edge Types
     Node,LNode,UNode,
@@ -83,9 +83,13 @@ type LNode a = (Node,a)
 type UNode   = LNode ()
 
 -- | Unlabeled edge
-type  Edge   = (Node,Node)
+data  Edge   = Edge  (Node,Node)
+             | Hyper ([Node],[Node])
+ deriving (Show,Read,Eq,Ord)
 -- | Labeled edge
-type LEdge b = (Node,Node,b)
+data LEdge b = LEdge  (Node,Node,b)
+             | LHyper ([Node],[Node],b)
+ deriving (Show,Read,Eq,Ord)
 -- | Quasi-unlabeled edge
 type UEdge   = LEdge ()
 
@@ -176,7 +180,7 @@ class Graph gr where
 
   -- | A list of all 'LEdge's in the 'Graph'.
   labEdges  :: gr a b -> [LEdge b]
-  labEdges = ufold (\(_,v,_,s)->(map (\(l,w)->(v,w,l)) s ++)) []
+  labEdges = ufold (\(_,v,_,s)->(map (\(l,w)-> LEdge (v,w,l)) s ++)) []
 
 class (Graph gr) => DynGraph gr where
   -- | Merge the 'Context' into the 'DynGraph'.
@@ -248,15 +252,15 @@ edges = map toEdge . labEdges
 
 -- | Drop the label component of an edge.
 toEdge :: LEdge b -> Edge
-toEdge (v,w,_) = (v,w)
+toEdge (LEdge (v,w,_)) = Edge (v,w)
 
 -- | Add a label to an edge.
 toLEdge :: Edge -> b -> LEdge b
-toLEdge (v,w) l = (v,w,l)
+toLEdge (Edge (v,w)) l = LEdge (v,w,l)
 
 -- | The label in an edge.
 edgeLabel :: LEdge b -> b
-edgeLabel (_,_,l) = l
+edgeLabel (LEdge (_,_,l)) = l
 
 -- | List N available 'Node's, i.e. 'Node's that are not used in the 'Graph'.
 newNodes :: (Graph gr) => Int -> gr a b -> [Node]
@@ -277,7 +281,7 @@ insNode (v,l) = (([],v,l,[])&)
 
 -- | Insert a 'LEdge' into the 'Graph'.
 insEdge :: (DynGraph gr) => LEdge b -> gr a b -> gr a b
-insEdge (v,w,l) g = (pr,v,la,(l,w):su) & g'
+insEdge (LEdge (v,w,l)) g = (pr,v,la,(l,w):su) & g'
   where
     (mcxt,g') = match v g
     (pr,_,la,su) = fromMaybe
@@ -296,9 +300,9 @@ delNode v = delNodes [v]
 --   them.  If you need to delete only a single such edge, please use
 --   'delLEdge'.
 delEdge :: (DynGraph gr) => Edge -> gr a b -> gr a b
-delEdge (v,w) g = case match v g of
-                    (Nothing,_)          -> g
-                    (Just (p,v',l,s),g') -> (p,v',l,filter ((/=w).snd) s) & g'
+delEdge (Edge (v,w)) g = case match v g of
+                          (Nothing,_)          -> g
+                          (Just (p,v',l,s),g') -> (p,v',l,filter ((/=w).snd) s) & g'
 
 -- | Remove an 'LEdge' from the 'Graph'.
 --
@@ -314,7 +318,7 @@ delAllLEdge = delLEdgeBy (filter . (/=))
 
 delLEdgeBy :: (DynGraph gr) => ((b,Node) -> Adj b -> Adj b)
               -> LEdge b -> gr a b -> gr a b
-delLEdgeBy f (v,w,b) g = case match v g of
+delLEdgeBy f (LEdge (v,w,b)) g = case match v g of
                            (Nothing,_)          -> g
                            (Just (p,v',l,s),g') -> (p,v',l,f (b,w) s) & g'
 
@@ -412,11 +416,11 @@ lpre = map flip2 .: context1l
 
 -- | Find all outward-bound 'LEdge's for the given 'Node'.
 out :: (Graph gr) => gr a b -> Node -> [LEdge b]
-out g v = map (\(l,w)->(v,w,l)) (context4l g v)
+out g v = map (\(l,w)->LEdge (v,w,l)) (context4l g v)
 
 -- | Find all inward-bound 'LEdge's for the given 'Node'.
 inn :: (Graph gr) => gr a b -> Node -> [LEdge b]
-inn g v = map (\(l,w)->(w,v,l)) (context1l g v)
+inn g v = map (\(l,w)->LEdge (w,v,l)) (context1l g v)
 
 -- | The outward-bound degree of the 'Node'.
 outdeg :: (Graph gr) => gr a b -> Node -> Int
@@ -468,11 +472,11 @@ lpre' = map flip2 . context1l'
 
 -- | All outward-directed 'LEdge's in a 'Context'.
 out' :: Context a b -> [LEdge b]
-out' c@(_,v,_,_) = map (\(l,w)->(v,w,l)) (context4l' c)
+out' c@(_,v,_,_) = map (\(l,w)->LEdge (v,w,l)) (context4l' c)
 
 -- | All inward-directed 'LEdge's in a 'Context'.
 inn' :: Context a b -> [LEdge b]
-inn' c@(_,v,_,_) = map (\(l,w)->(w,v,l)) (context1l' c)
+inn' c@(_,v,_,_) = map (\(l,w)-> LEdge (w,v,l)) (context1l' c)
 
 -- | The outward degree of a 'Context'.
 outdeg' :: Context a b -> Int
@@ -484,11 +488,11 @@ indeg' = length . context1l'
 
 -- | The degree of a 'Context'.
 deg' :: Context a b -> Int
-deg' (p,_,_,s)= length p+length s
+deg' (p,_,_,s) = length p+length s
 
 -- | Checks if there is a directed edge between two nodes.
 hasEdge :: Graph gr => gr a b -> Edge -> Bool
-hasEdge gr (v,w) = w `elem` suc gr v
+hasEdge gr (Edge (v,w)) = w `elem` suc gr v
 
 -- | Checks if there is an undirected edge between two nodes.
 hasNeighbor :: Graph gr => gr a b -> Node -> Node -> Bool
@@ -496,7 +500,7 @@ hasNeighbor gr v w = w `elem` neighbors gr v
 
 -- | Checks if there is a labelled edge between two nodes.
 hasLEdge :: (Graph gr, Eq b) => gr a b -> LEdge b -> Bool
-hasLEdge gr (v,w,l) = (w,l) `elem` lsuc gr v
+hasLEdge gr (LEdge (v,w,l)) = (w,l) `elem` lsuc gr v
 
 -- | Checks if there is an undirected labelled edge between two nodes.
 hasNeighborAdj :: (Graph gr, Eq b) => gr a b -> Node -> (b,Node) -> Bool
@@ -530,7 +534,7 @@ newtype GroupEdges b = GEs (LEdge [b])
   deriving (Show, Read)
 
 instance (Eq b) => Eq (GroupEdges b) where
-  (GEs (v1,w1,bs1)) == (GEs (v2,w2,bs2)) = v1 == v2
+  (GEs (LEdge (v1,w1,bs1))) == (GEs (LEdge (v2,w2,bs2))) = v1 == v2
                                            && w1 == w2
                                            && eqLists bs1 bs2
 
@@ -606,6 +610,5 @@ instance (Graph gr, Ord a, Ord b) => Ord (OrdGr gr a b) where
   compare (OrdGr g1) (OrdGr g2) =
     (compare `on` sort . labNodes) g1 g2
     `mappend` (compare `on` sort . labEdges) g1 g2
-
 
 
