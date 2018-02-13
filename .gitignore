@@ -3,8 +3,9 @@ test -f .gitignore && grep -q "^#GENERATED" < .gitignore || exit 1
 tmp=`mktemp --suffix _gitignore`
 awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a==1) { print $0 }; a++; } else { print $0 } }' < .gitignore > $tmp
 awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore > $tmp.generated
-find -name "*.hs" -exec echo "!"{} \; > $tmp.generated
+find -name "*.hs" -exec dirname {} \; -exec echo {} \; | sed 's,^\./,!,' >> $tmp.generated
 (cat $tmp; sort $tmp.generated | uniq) > .gitignore
+(sort $tmp.generated | uniq) >> .gitignore
 exit
 #ENDSCRIPT
 
@@ -19,7 +20,19 @@ exit
 
 
 #GENERATED
-!./Enqm/DirectAcyclicHyperGraph.hs
-!./Enqm/DirectAcyclicHyperGraph/Simple.hs
-!./Enqm.hs
-!./Enqm/TransactionsAndSignatures.hs
+.
+!Enqm
+!Enqm/DirectAcyclicHyperGraph
+!Enqm/DirectAcyclicHyperGraph.hs
+!Enqm/DirectAcyclicHyperGraph/Simple2.hs
+!Enqm/DirectAcyclicHyperGraph/Simple.hs
+!Enqm.hs
+!Enqm/TransactionsAndSignatures.hs
+.
+!Enqm
+!Enqm/DirectAcyclicHyperGraph
+!Enqm/DirectAcyclicHyperGraph.hs
+!Enqm/DirectAcyclicHyperGraph/Simple2.hs
+!Enqm/DirectAcyclicHyperGraph/Simple.hs
+!Enqm.hs
+!Enqm/TransactionsAndSignatures.hs
