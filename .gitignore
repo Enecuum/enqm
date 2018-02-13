@@ -29,6 +29,11 @@ exit
 !Enqm/DirectAcyclicHyperGraph.hs
 !Enqm/DirectAcyclicHyperGraph/Simple2.hs
 !Enqm/DirectAcyclicHyperGraph/Simple.hs
+!Enqm/Ecology
+!Enqm/Ecology/Checking.hs
+!Enqm/Ecology/Duplication.hs
+!Enqm/Ecology/Filtring.hs
+!Enqm/Ecology/Sharding.hs
 !Enqm.hs
 !Enqm/Macroblock
 !Enqm/Macroblock.hs
