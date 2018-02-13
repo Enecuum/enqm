@@ -25,7 +25,7 @@ list: gitignore
 
 README: gitignore
 	@echo '```' > README.md
-	@awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore | sed 's,^!,,' | awk '{ system("ls -dla " $$0); }' | column -t | awk '{ $$(NF) = ("[" $$(NF) "](" $$(NF) ")"); print $0 }' >> README.md
+	@awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore | sed 's,^!,,' | awk '{ system("ls -dla " $$0); }' | column -t | awk '{ $$(NF) = ("```[" $$(NF) "](" $$(NF) ")```"); print $0 }' >> README.md
 	@echo '```' >> README.md
 
 
