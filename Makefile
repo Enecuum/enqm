@@ -1,4 +1,6 @@
-.PHONY: default gitignore quickdevCommitAndPush history
+.PHONY: default gitignore quickdevCommitAndPush history quickdev make-quickdev
+
+quickdev := $(shell mktemp "quickdev-`date '+%Y%m%d%H%M%S'`-XXXXX")
 
 default: gitignore quickdevCommitAndPush
 
@@ -10,4 +12,11 @@ quickdevCommitAndPush:
 
 history:
 	@git log | awk '{ print $$0 } /^commit /{ print "==============================================="; commit = $$2 } /^Date: /{ print ""; system("git diff --color " commit); }' | less -R
+
+quickdev: make-quickdev quickdevCommitAndPush
+
+make-quickdev:
+	git branch $(quickdev)
+	git checkout $(quickdev)
+
 
