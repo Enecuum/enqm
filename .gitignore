@@ -34,6 +34,9 @@ exit
 !Enqm/Macroblock.hs
 !Enqm/Macroblock/Publicators.hs
 !Enqm/Macroblock/Security.hs
+!Enqm/Nell
+!Enqm/Nell/Sharnell.hs
+!Enqm/Nell/Stereonell.hs
 !Enqm/ProofOfActivity.hs
 !Enqm/ProofOfActivity/PowVerification
 !Enqm/ProofOfActivity/PowVerification/PvcnHashLoop.hs
@@ -43,7 +46,10 @@ exit
 !Enqm/ProofOfWork
 !Enqm/ProofOfWork.hs
 !Enqm/ProofOfWork/PvcnHashLoop.hs
+!Enqm/Statistics
 !Enqm/Statistics/Complexity
 !Enqm/Statistics/Complexity/ProofOfWork.hs
+!Enqm/Statistics/FuzzyDay.hs
 !Enqm/Statistics.hs
+!Enqm/Statistics/SystemHealth.hs
 !Enqm/TransactionsAndSignatures.hs
