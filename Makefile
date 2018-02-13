@@ -1,4 +1,4 @@
-.PHONY: default gitignore quickdevCommitAndPush history quickdev make-quickdev
+.PHONY: default gitignore quickdevCommitAndPush history quickdev make-quickdev README
 
 quickdev := $(shell mktemp -u "quickdev-`date '+%Y%m%d%H%M%S'`-XXXXX")
 
@@ -21,5 +21,11 @@ make-quickdev:
 
 list: gitignore
 	@awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore | sed 's,^!,,' | awk '{ system("ls -dla --color=always " $$0); }' | column -t | less -R
+
+
+README: gitignore
+	@echo "'''" > README.md
+	@awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore | sed 's,^!,,' | awk '{ system("ls -dla " $$0); }' | column -t >> README.md
+	@echo "'''" >> README.md
 
 
