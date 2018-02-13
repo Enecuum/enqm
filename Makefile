@@ -1,4 +1,4 @@
-PHONY: default gitignore quickdevCommitAndPush history
+.PHONY: default gitignore quickdevCommitAndPush history
 
 default: gitignore quickdevCommitAndPush
 
