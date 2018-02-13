@@ -19,4 +19,7 @@ make-quickdev:
 	git branch $(quickdev)
 	git checkout $(quickdev)
 
+list:
+	@awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore | sed 's,^!,,' | awk '{ system("ls -dla " $$0); }' | column -t
+
 
