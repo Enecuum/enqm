@@ -21,6 +21,10 @@ exit
 
 #GENERATED
 !Enqm
+!Enqm/Block
+!Enqm/Block/Classic.hs
+!Enqm/Block.hs
+!Enqm/Block/Micro.hs
 !Enqm/DirectAcyclicHyperGraph
 !Enqm/DirectAcyclicHyperGraph.hs
 !Enqm/DirectAcyclicHyperGraph/Simple2.hs
