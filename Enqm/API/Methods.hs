@@ -39,8 +39,6 @@ instance GetLazyData Demo
 instance GetLazyData Access
 instance GetLazyData Enqin
 
-abc = [| getLazyData |]
-
 enudoc :: GetOptWith UnixShellCommand -> Enqin Terminal
 enudoc = undefined
 
