@@ -18,6 +18,9 @@ data UnixShellCommand
 data PongStatus
 data HttpListener
 data DefaultHttpServer
+data Demo a
+data PvcnHashReport
+data Lazy a
 
 instance Functor Access where
 instance Applicative Access where

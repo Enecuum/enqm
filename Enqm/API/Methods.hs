@@ -26,6 +26,16 @@ data Terminal = Terminal String (Enqin Terminal)
 pingPeer :: Network -> Peer -> Access (Enqin Pongs)
 pingPeer = undefined
 
+pvcnHashLoop :: Binary -> [Hash] -> Demo [(Hash,Lazy PvcnHashReport)]
+pvcnHashLoop = undefined
+
+class GetLazyData t where
+  getLazyData :: Lazy a -> t a
+
+instance GetLazyData Demo
+instance GetLazyData Access
+instance GetLazyData Enqin
+
 enqman :: GetOptWith UnixShellCommand -> Enqin Terminal
 enqman = undefined
 
