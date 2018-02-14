@@ -109,3 +109,4 @@ exit
 !Enqm/DirectAcyclicHyperGraph.hs
 !Enqm/DirectAcyclicHyperGraph/PatriciaTreeWithIORef.hs
 !Enqm/TransactionsAndSignatures.hs
+!enqin.hs
