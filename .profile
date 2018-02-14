@@ -1,3 +1,3 @@
 
-export PATH=${PATH}:${PWD}/Enqm/API/UnixShell/Generated
+export PATH=${PATH}:${PWD}/Enqm/API/UnixShell/Generated/bin
 

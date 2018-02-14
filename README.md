@@ -296,7 +296,7 @@
 |     ``578``| ``Feb``| ``14``| ``15:27``| [``Enqm/API/Methods.hs``](Enqm/API/Methods.hs) |
 |     ``42``| ``Feb``| ``14``| ``19:43``| [``Enqm/API/UnixShell``](Enqm/API/UnixShell) |
 |     ``34``| ``Feb``| ``14``| ``19:26``| [``Enqm/API/UnixShell.hs``](Enqm/API/UnixShell.hs) |
-|     ``216``| ``Feb``| ``14``| ``19:43``| [``Enqm/API/UnixShell/Generated``](Enqm/API/UnixShell/Generated) |
+|     ``418``| ``Feb``| ``14``| ``19:58``| [``Enqm/API/UnixShell/Generated``](Enqm/API/UnixShell/Generated) |
 |     ``452``| ``Feb``| ``14``| ``19:43``| [``Enqm/API/UnixShell/Generated.hs``](Enqm/API/UnixShell/Generated.hs) |
 |     ``72``| ``Feb``| ``14``| ``19:43``| [``Enqm/API/UnixShell/Generated/isPowMining.hs``](Enqm/API/UnixShell/Generated/isPowMining.hs) |
 |     ``72``| ``Feb``| ``14``| ``19:43``| [``Enqm/API/UnixShell/Generated/getListOfMiners.hs``](Enqm/API/UnixShell/Generated/getListOfMiners.hs) |
