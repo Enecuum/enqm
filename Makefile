@@ -7,7 +7,7 @@ default: gitignore quickdevCommitAndPush
 gitignore:
 	@./.gitignore
 
-quickdevCommitAndPush:
+quickdevCommitAndPush: README
 	@git branch | grep -q '^\* quickdev.*' && git add -Av && (git commit -a --allow-empty-message --no-edit && echo commited || true) && git push --all > /dev/null 2> /dev/null && echo pushed || echo not pushed
 
 history:

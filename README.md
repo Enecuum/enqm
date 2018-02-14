@@ -172,9 +172,10 @@ Text
 |     ``24``| ``Feb``| ``13``| ``23:13``| [``Enqm/Network/HolePunching``](Enqm/Network/HolePunching) |
 |     ``43``| ``Feb``| ``13``| ``23:13``| [``Enqm/Network/HolePunching/TCP.hs``](Enqm/Network/HolePunching/TCP.hs) |
 |     ``43``| ``Feb``| ``13``| ``23:12``| [``Enqm/Network/HolePunching/UDP.hs``](Enqm/Network/HolePunching/UDP.hs) |
-|     ``50``| ``Feb``| ``13``| ``22:18``| [``Enqm/Macroblock``](Enqm/Macroblock) |
+|     ``76``| ``Feb``| ``14``| ``08:38``| [``Enqm/Macroblock``](Enqm/Macroblock) |
 |     ``31``| ``Feb``| ``13``| ``22:17``| [``Enqm/Macroblock.hs``](Enqm/Macroblock.hs) |
 |     ``39``| ``Feb``| ``13``| ``22:18``| [``Enqm/Macroblock/Security.hs``](Enqm/Macroblock/Security.hs) |
+|     ``2093``| ``Feb``| ``14``| ``08:38``| [``Enqm/Macroblock/Calculator.hs``](Enqm/Macroblock/Calculator.hs) |
 |     ``43``| ``Feb``| ``13``| ``22:18``| [``Enqm/Macroblock/Publicators.hs``](Enqm/Macroblock/Publicators.hs) |
 |     ``72``| ``Feb``| ``13``| ``22:30``| [``Enqm/Statistics``](Enqm/Statistics) |
 |     ``30``| ``Feb``| ``13``| ``22:25``| [``Enqm/Statistics.hs``](Enqm/Statistics.hs) |
