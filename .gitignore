@@ -71,6 +71,7 @@ exit
 !Enqm/Macroblock
 !Enqm/Macroblock.hs
 !Enqm/Macroblock/Security.hs
+!Enqm/Macroblock/Calculator.hs
 !Enqm/Macroblock/Publicators.hs
 !Enqm/Statistics
 !Enqm/Statistics.hs
