@@ -13,7 +13,11 @@ generate = do
   mapM_ (genFile.fst) $ _Enqin ++ _Access
 
 genFile method = do
-  writeFile (dir ++ "/" ++ method ++ ".hs") source
+  let filepath = dir ++ "/" ++ method ++ ".hs"
+  exist <- doesFileExist filepath
+  if exist
+     then return ()
+     else writeFile (dir ++ "/" ++ method ++ ".hs") source
 
 source = [r|
 
