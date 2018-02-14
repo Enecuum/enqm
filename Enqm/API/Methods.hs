@@ -91,6 +91,24 @@ createKeyPair = error "key pair test"
 getLocalControl :: Access Control
 getLocalControl = undefined
 
+getLocalPrivateControl :: Access Control
+getLocalPrivateControl = undefined
+
+getLocalRemoteboxControl :: Access Control
+getLocalRemoteboxControl = undefined
+
+getDefaultControl :: Access Control
+getDefaultControl = undefined
+
+getLocalSandboxControl :: Access Control
+getLocalSandboxControl = undefined
+
+getTorPublicControl :: Access Control
+getTorPublicControl = undefined
+
+getDirectPublicControl :: Access Control
+getDirectPublicControl = undefined
+
 getListOfMiners :: Control -> Access [Miner]
 getListOfMiners _ = return []
 
