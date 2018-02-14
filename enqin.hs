@@ -9,10 +9,14 @@ main = do
   args <- getArgs
   env  <- getEnvironment
   case lookup "ENQIN" env of
-    Just a  -> do putStr ("Allready inside enqin " ++ show a ++ "\n")
+    Just a  -> do putStr ("Already inside enqin\n" ++ message a ++ "\n")
                   executeFile "ls" True [a ++ "/" ++ dir ++ "/bin"] (Just env)
     Nothing -> do True <- doesDirectoryExist "Enqm/API/UnixShell/Generated"
                   executeFile "bash" True args (Just $ foldr (\(a,b) c -> modify a b c) env mods)
+
+message a = unlines
+ ["Program dir: " ++ a
+ ]
 
 curDir :: String
 curDir = unsafePerformIO $ getCurrentDirectory
