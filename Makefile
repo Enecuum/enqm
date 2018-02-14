@@ -49,7 +49,7 @@ enqin: enqin.hs
 	ghc --make $< -o $@
 
 Enqm/API/UnixShell/Generated/bin/%: Enqm/API/UnixShell/Generated/%.hs
-	@ln -sf Enqm/API/UnixShell/Generated/bin/getLocalControl $@
+	@ln -sf getLocalControl $@
 	#ghc --make $< -o $@
 
 clean:
