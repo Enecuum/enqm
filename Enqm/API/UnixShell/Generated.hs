@@ -10,7 +10,7 @@ dir = "Enqm/API/UnixShell/Generated"
 
 generate = do
   True <- doesDirectoryExist "Enqm/API/UnixShell/Generated"
-  mapM_ (genFile.fst) $ _Access
+  mapM_ (genFile.fst) $ _Enqin ++ _Access
 
 genFile method = do
   writeFile (dir ++ "/" ++ method ++ ".hs") source

@@ -10,10 +10,21 @@ import Enqm.API.Types
 import Enqm.API.RPC.Generic
 
 
+_Access = $(functionExtractor "^[^_].* :: .* Access ")
+_Enqin  = $(functionExtractor "^[^_].* :: .* Enqin " )
 
-_Access = $(functionExtractor "^[^_].* Access ")
 
+enableEnqinCodeAutoreload :: Enqin ()
+enableEnqinCodeAutoreload = error "test code autoreload"
 
+startMining :: Maybe (Control,Miner) -> Access (Miner,Control)
+startMining = error "mining test"
+
+createWallet :: Maybe (Control,Wallet) -> Access (Wallet,Control)
+createWallet = error "wallet test"
+
+createKeyPair :: Maybe Control -> Access (Security KeyPair,Control)
+createKeyPair = error "key pair test"
 
 getLocalControl :: Access Control
 getLocalControl = undefined
