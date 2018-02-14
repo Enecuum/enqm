@@ -41,21 +41,32 @@ instance GetLazyData Enqin
 
 abc = [| getLazyData |]
 
-enqman :: GetOptWith UnixShellCommand -> Enqin Terminal
-enqman = undefined
+enudoc :: GetOptWith UnixShellCommand -> Enqin Terminal
+enudoc = undefined
 
 data Trigger a
 data SingleProcess a
+data SelectedProcesses a
+data ExpectedProcesses a
 
 data Enqout mask where
- Enqwait :: (Enqoutable processes mask, SingleProcess processes ~ mask) => Trigger (Enqin processes)               -> Enqout mask -- hide
- Enqpend ::  Enqoutable processes mask => Trigger (Enqin (processes,Enqout mask)) -> Enqout mask
- Enqout  ::  Enqoutable processes mask => processes                               -> Enqout mask
+ Enqwait :: (Enqoutable processes mask, SingleProcess     processes ~ mask) => Trigger (Enqin  processes)              -> Enqout mask
+ Enqpend :: (Enqoutable processes mask, ExpectedProcesses processes ~ mask) => Trigger (Enqin (processes,Enqout mask)) -> Enqout mask
+ Enqout  :: (Enqoutable processes mask, SelectedProcesses processes ~ mask) => processes                               -> Enqout mask
 
 -- = forall processes. (Enqoutable processes mask) => Enqpend (Trigger (Enqin (processes,Enqout mask))) | Enqout processes
 
 class Enqoutable processes mask | processes -> mask where
   _enqout :: Maybe processes -> Enqin (Enqout mask)
+
+-- enqound
+-- enqrchive
+-- enqtat
+-- enqilize
+-- enquz
+-- enqenate :: Enqout (SelectedProcesses processes) -> Enqin (OfflineTicket processes)
+-- enqake :: OfflineTicket processes -> Enqin (OfflineAndReady processes)
+-- enqorld :: OfflineAndReady process -> Enqin (Enqout (SelectedProcesses processes))
 
 {-
 instance Enqoutable Access (SingleProcess Access) where
