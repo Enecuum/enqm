@@ -1,19 +1,20 @@
-{-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE TemplateHaskell, QuasiQuotes, GADTs, MultiParamTypeClasses, FunctionalDependencies #-}
 
 module Enqm.API.Methods where
 
 import System.Random
 import Language.Haskell.TH
+import Language.Haskell.TH.Syntax
 import Data.Typeable
 
 import Enqm.API.Types
 import Enqm.API.RPC.Generic
 
 
-_Access = $(functionExtractor "^[^_].*::.* Access ")
-_Enqin  = $(functionExtractor "^[^_].*::.* Enqin " )
-_Demo   = $(functionExtractor "^[^_].*::.* Demo " )
-_Class  = $(functionExtractor "^[^_].*::.*-- use extractor with class$" )
+_Access = $(functionExtractor "^[a-z].*::.* Access ")
+_Enqin  = $(functionExtractor "^[a-z].*::.* Enqin " )
+_Demo   = $(functionExtractor "^[a-z].*::.* Demo " )
+-- _Class  = $(functionExtractor "^[^_].*::.*-- use extractor with class$" )
 
 
 enableEnqinCodeAutoreload :: Enqin ()
@@ -38,8 +39,28 @@ instance GetLazyData Demo
 instance GetLazyData Access
 instance GetLazyData Enqin
 
+abc = [| getLazyData |]
+
 enqman :: GetOptWith UnixShellCommand -> Enqin Terminal
 enqman = undefined
+
+data Trigger a
+data SingleProcess a
+
+data Enqout mask where
+ Enqwait :: (Enqoutable processes mask, SingleProcess processes ~ mask) => Trigger (Enqin processes)               -> Enqout mask -- hide
+ Enqpend ::  Enqoutable processes mask => Trigger (Enqin (processes,Enqout mask)) -> Enqout mask
+ Enqout  ::  Enqoutable processes mask => processes                               -> Enqout mask
+
+-- = forall processes. (Enqoutable processes mask) => Enqpend (Trigger (Enqin (processes,Enqout mask))) | Enqout processes
+
+class Enqoutable processes mask | processes -> mask where
+  _enqout :: Maybe processes -> Enqin (Enqout mask)
+
+{-
+instance Enqoutable Access (SingleProcess Access) where
+  _enqout Nothing = return $ Enqpend $ listeningForNewProcesses :: Enqin (Access,Enqout (SingleProcess Access))
+-}
 
 startHttpServer :: Maybe (Control,Maybe HttpListener) -> Access (Control,HttpListener,DefaultHttpServer)
 startHttpServer = undefined
