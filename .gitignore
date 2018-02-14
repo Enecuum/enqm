@@ -28,6 +28,7 @@ exit
 !Enqm/API/RPC
 !Enqm/API/RPC.hs
 !Enqm/API/RPC/Generic.hs
+!Enqm/API/RPC/Instances.hs
 !Enqm/API/Types.hs
 !Enqm/API/Methods.hs
 !Enqm/Nell
