@@ -32,6 +32,7 @@ README: gitignore
 	@awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore | sed 's,^!,,' | awk '{ system("ls -dla " $$0); }' | awk '{ for (i = 1; i < NF; i++) { if (i < 5) { $$i = "" } else { $$i = "``" $$i "``|" } } $$(NF) = ("[``" $$(NF) "``](" $$(NF) ")"); print("| " $$0 " |") }' >> README.md
 
 bin: enqin $(shell find Enqm/API/UnixShell/Generated -name "*.hs" | sed 's,\.hs$$,,' | sed 's,Generated,Generated/bin,')
+	@ln -sf ../../../../../enqin Enqm/API/UnixShell/Generated/bin/
 	@ls -l Enqm/API/UnixShell/Generated/bin
 
 enqin: enqin.hs
