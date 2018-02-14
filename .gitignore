@@ -4,7 +4,7 @@ test -f .gitignore && grep -q "^#GENERATED" < .gitignore || exit 1
 tmp=`mktemp --suffix _gitignore`
 awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a==1) { print $0 }; a++; } else { print $0 } }' < .gitignore > $tmp
 awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore > $tmp.generated
-find -name "*.hs" -exec dirname {} \; -exec echo {} \; | sed 's,^\./,!,' | grep -v "^\." >> $tmp.generated
+find -name "*.hs" -exec dirname {} \; -exec echo {} \; | sed 's,^\./,!,' | grep -v "^\." | grep -v "Generated/" >> $tmp.generated
 (cat $tmp; awk -F"/" '{ for(i = 1; i <= 20; i++) { v = gensub(/\..*$/,"","g",$i); printf("%03d%-50s",length(v),v) } print v "==" $0 }' $tmp.generated \
 	| sort -n | sed 's,^.*==,,' | uniq | gawk -F"!" '@load "filefuncs"; { if(stat($2,fstat) == 0) { print $0 } }') > .gitignore
 exit
@@ -34,7 +34,6 @@ exit
 !Enqm/API/Methods.hs
 !Enqm/API/UnixShell
 !Enqm/API/UnixShell.hs
-!Enqm/API/UnixShell/Generated
 !Enqm/API/UnixShell/Generated.hs
 !Enqm/Nell
 !Enqm/Nell/Sharnell.hs
