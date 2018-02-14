@@ -39,8 +39,8 @@ instance (Test f, Test g) => Test (f :+: g) where
 instance (Test f, Test g) => Test (f :*: g) where
   cnm (x :*: y) = ":*:"
 
-instance Test (K1 i c) where
-  cnm (K1 x) = "K1"
+instance (Typeable c) => Test (K1 R c) where
+  cnm _ = "(" ++ (show $ typeOf (undefined :: c)) ++ ")"
 
 instance {-# OVERLAPPABLE #-} (Test f)  => Test (M1 i t f) where
   cnm = cnm . unM1
