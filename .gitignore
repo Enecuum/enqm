@@ -37,6 +37,9 @@ exit
 !Enqm/API/UnixShell/Generated
 !Enqm/API/UnixShell/Generated.hs
 !Enqm/API/UnixShell/Generated/isPowMining.hs
+!Enqm/API/UnixShell/Generated/startMining.hs
+!Enqm/API/UnixShell/Generated/createWallet.hs
+!Enqm/API/UnixShell/Generated/createKeyPair.hs
 !Enqm/API/UnixShell/Generated/getListOfMiners.hs
 !Enqm/API/UnixShell/Generated/getLocalControl.hs
 !Enqm/API/UnixShell/Generated/getConnectedPeers.hs
