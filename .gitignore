@@ -23,6 +23,12 @@ exit
 #GENERATED
 !Enqm
 !Enqm.hs
+!Enqm/API
+!Enqm/API.hs
+!Enqm/API/RPC
+!Enqm/API/RPC.hs
+!Enqm/API/RPC/Generic.hs
+!Enqm/API/Methods.hs
 !Enqm/Nell
 !Enqm/Nell/Sharnell.hs
 !Enqm/Nell/Stereonell.hs
