@@ -286,7 +286,7 @@
 |----|----|----|----|-------|
 |     ``630``| ``Feb``| ``14``| ``20:11``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
-|     ``128``| ``Feb``| ``14``| ``20:11``| [``Enqm/API``](Enqm/API) |
+|     ``128``| ``Feb``| ``14``| ``20:36``| [``Enqm/API``](Enqm/API) |
 |     ``23``| ``Feb``| ``14``| ``11:39``| [``Enqm/API.hs``](Enqm/API.hs) |
 |     ``62``| ``Feb``| ``14``| ``20:11``| [``Enqm/API/RPC``](Enqm/API/RPC) |
 |     ``305``| ``Feb``| ``14``| ``16:56``| [``Enqm/API/RPC.hs``](Enqm/API/RPC.hs) |
@@ -371,4 +371,4 @@
 |     ``21140``| ``Feb``| ``13``| ``18:36``| [``Enqm/DirectAcyclicHyperGraph.hs``](Enqm/DirectAcyclicHyperGraph.hs) |
 |     ``1722``| ``Feb``| ``14``| ``00:59``| [``Enqm/DirectAcyclicHyperGraph/PatriciaTreeWithIORef.hs``](Enqm/DirectAcyclicHyperGraph/PatriciaTreeWithIORef.hs) |
 |     ``420``| ``Feb``| ``13``| ``19:02``| [``Enqm/TransactionsAndSignatures.hs``](Enqm/TransactionsAndSignatures.hs) |
-|     ``616``| ``Feb``| ``14``| ``20:33``| [``enqin.hs``](enqin.hs) |
+|     ``897``| ``Feb``| ``14``| ``20:48``| [``enqin.hs``](enqin.hs) |
