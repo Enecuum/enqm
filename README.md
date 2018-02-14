@@ -296,14 +296,16 @@
 |     ``1036``| ``Feb``| ``14``| ``21:35``| [``Enqm/API/Methods.hs``](Enqm/API/Methods.hs) |
 |     ``42``| ``Feb``| ``14``| ``21:30``| [``Enqm/API/UnixShell``](Enqm/API/UnixShell) |
 |     ``34``| ``Feb``| ``14``| ``19:26``| [``Enqm/API/UnixShell.hs``](Enqm/API/UnixShell.hs) |
-|     ``576``| ``Feb``| ``14``| ``21:33``| [``Enqm/API/UnixShell/Generated``](Enqm/API/UnixShell/Generated) |
+|     ``848``| ``Feb``| ``14``| ``21:35``| [``Enqm/API/UnixShell/Generated``](Enqm/API/UnixShell/Generated) |
 |     ``582``| ``Feb``| ``14``| ``21:30``| [``Enqm/API/UnixShell/Generated.hs``](Enqm/API/UnixShell/Generated.hs) |
 |     ``72``| ``Feb``| ``14``| ``21:33``| [``Enqm/API/UnixShell/Generated/isPowMining.hs``](Enqm/API/UnixShell/Generated/isPowMining.hs) |
 |     ``72``| ``Feb``| ``14``| ``21:33``| [``Enqm/API/UnixShell/Generated/startMining.hs``](Enqm/API/UnixShell/Generated/startMining.hs) |
 |     ``72``| ``Feb``| ``14``| ``21:33``| [``Enqm/API/UnixShell/Generated/createWallet.hs``](Enqm/API/UnixShell/Generated/createWallet.hs) |
 |     ``72``| ``Feb``| ``14``| ``21:33``| [``Enqm/API/UnixShell/Generated/createKeyPair.hs``](Enqm/API/UnixShell/Generated/createKeyPair.hs) |
 |     ``72``| ``Feb``| ``14``| ``21:33``| [``Enqm/API/UnixShell/Generated/getListOfMiners.hs``](Enqm/API/UnixShell/Generated/getListOfMiners.hs) |
+|     ``72``| ``Feb``| ``14``| ``21:35``| [``Enqm/API/UnixShell/Generated/getLocalControl.hs``](Enqm/API/UnixShell/Generated/getLocalControl.hs) |
 |     ``72``| ``Feb``| ``14``| ``21:33``| [``Enqm/API/UnixShell/Generated/getConnectedPeers.hs``](Enqm/API/UnixShell/Generated/getConnectedPeers.hs) |
+|     ``72``| ``Feb``| ``14``| ``21:35``| [``Enqm/API/UnixShell/Generated/enableEnqinCodeAutoreload.hs``](Enqm/API/UnixShell/Generated/enableEnqinCodeAutoreload.hs) |
 |     ``48``| ``Feb``| ``13``| ``22:33``| [``Enqm/Nell``](Enqm/Nell) |
 |     ``113``| ``Feb``| ``13``| ``22:33``| [``Enqm/Nell/Sharnell.hs``](Enqm/Nell/Sharnell.hs) |
 |     ``104``| ``Feb``| ``13``| ``22:33``| [``Enqm/Nell/Stereonell.hs``](Enqm/Nell/Stereonell.hs) |

@@ -4,6 +4,7 @@ quickdev := $(shell mktemp -u "quickdev-`date '+%Y%m%d%H%M%S'`-XXXXX")
 generated = $(shell find Enqm/API/UnixShell/Generated -name "*.hs" | sed 's,\.hs$$,,' | sed 's,Generated,Generated/bin,')
 
 default: gitignore quickdevCommitAndPush bin
+	bash
 
 gitignore:
 	@./.gitignore

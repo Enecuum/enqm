@@ -41,7 +41,9 @@ exit
 !Enqm/API/UnixShell/Generated/createWallet.hs
 !Enqm/API/UnixShell/Generated/createKeyPair.hs
 !Enqm/API/UnixShell/Generated/getListOfMiners.hs
+!Enqm/API/UnixShell/Generated/getLocalControl.hs
 !Enqm/API/UnixShell/Generated/getConnectedPeers.hs
+!Enqm/API/UnixShell/Generated/enableEnqinCodeAutoreload.hs
 !Enqm/Nell
 !Enqm/Nell/Sharnell.hs
 !Enqm/Nell/Stereonell.hs
