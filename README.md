@@ -296,7 +296,6 @@
 |     ``1036``| ``Feb``| ``14``| ``21:35``| [``Enqm/API/Methods.hs``](Enqm/API/Methods.hs) |
 |     ``42``| ``Feb``| ``14``| ``21:30``| [``Enqm/API/UnixShell``](Enqm/API/UnixShell) |
 |     ``34``| ``Feb``| ``14``| ``19:26``| [``Enqm/API/UnixShell.hs``](Enqm/API/UnixShell.hs) |
-|     ``362``| ``Feb``| ``14``| ``21:50``| [``Enqm/API/UnixShell/Generated``](Enqm/API/UnixShell/Generated) |
 |     ``582``| ``Feb``| ``14``| ``21:30``| [``Enqm/API/UnixShell/Generated.hs``](Enqm/API/UnixShell/Generated.hs) |
 |     ``48``| ``Feb``| ``13``| ``22:33``| [``Enqm/Nell``](Enqm/Nell) |
 |     ``113``| ``Feb``| ``13``| ``22:33``| [``Enqm/Nell/Sharnell.hs``](Enqm/Nell/Sharnell.hs) |
