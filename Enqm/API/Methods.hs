@@ -12,6 +12,8 @@ import Enqm.API.RPC.Generic
 
 _Access = $(functionExtractor "^[^_].*::.* Access ")
 _Enqin  = $(functionExtractor "^[^_].*::.* Enqin " )
+_Demo   = $(functionExtractor "^[^_].*::.* Demo " )
+_Class  = $(functionExtractor "^[^_].*::.*-- use extractor with class$" )
 
 
 enableEnqinCodeAutoreload :: Enqin ()
@@ -30,7 +32,7 @@ pvcnHashLoop :: Binary -> [Hash] -> Demo [(Hash,Lazy PvcnHashReport)]
 pvcnHashLoop = undefined
 
 class GetLazyData t where
-  getLazyData :: Lazy a -> t a
+  getLazyData :: Lazy a -> t a -- use extractor with class
 
 instance GetLazyData Demo
 instance GetLazyData Access
