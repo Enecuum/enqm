@@ -16,6 +16,8 @@ data UnixPipe a
 data GetOptWith a
 data UnixShellCommand
 data PongStatus
+data HttpListener
+data DefaultHttpServer
 
 instance Functor Access where
 instance Applicative Access where

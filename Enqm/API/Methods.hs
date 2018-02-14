@@ -29,6 +29,9 @@ pingPeer = undefined
 enqman :: GetOptWith UnixShellCommand -> Enqin Terminal
 enqman = undefined
 
+startHttpServer :: Maybe (Control,Maybe HttpListener) -> Access (Control,HttpListener,DefaultHttpServer)
+startHttpServer = undefined
+
 startNetwork :: Maybe (Control,Maybe Network) -> Access (Control,Network)
 startNetwork = undefined
 
