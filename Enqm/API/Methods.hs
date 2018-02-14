@@ -10,8 +10,8 @@ import Enqm.API.Types
 import Enqm.API.RPC.Generic
 
 
-_Access = $(functionExtractor "^[^_].* :: .* Access ")
-_Enqin  = $(functionExtractor "^[^_].* :: .* Enqin " )
+_Access = $(functionExtractor "^[^_].*::.* Access ")
+_Enqin  = $(functionExtractor "^[^_].*::.* Enqin " )
 
 
 enableEnqinCodeAutoreload :: Enqin ()

@@ -286,14 +286,14 @@
 |----|----|----|----|-------|
 |     ``630``| ``Feb``| ``14``| ``21:01``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
-|     ``128``| ``Feb``| ``14``| ``21:34``| [``Enqm/API``](Enqm/API) |
+|     ``128``| ``Feb``| ``14``| ``21:35``| [``Enqm/API``](Enqm/API) |
 |     ``23``| ``Feb``| ``14``| ``11:39``| [``Enqm/API.hs``](Enqm/API.hs) |
 |     ``62``| ``Feb``| ``14``| ``20:11``| [``Enqm/API/RPC``](Enqm/API/RPC) |
 |     ``305``| ``Feb``| ``14``| ``16:56``| [``Enqm/API/RPC.hs``](Enqm/API/RPC.hs) |
 |     ``1539``| ``Feb``| ``14``| ``16:43``| [``Enqm/API/RPC/Generic.hs``](Enqm/API/RPC/Generic.hs) |
 |     ``1655``| ``Feb``| ``14``| ``19:20``| [``Enqm/API/RPC/Instances.hs``](Enqm/API/RPC/Instances.hs) |
 |     ``279``| ``Feb``| ``14``| ``21:17``| [``Enqm/API/Types.hs``](Enqm/API/Types.hs) |
-|     ``1040``| ``Feb``| ``14``| ``21:16``| [``Enqm/API/Methods.hs``](Enqm/API/Methods.hs) |
+|     ``1036``| ``Feb``| ``14``| ``21:35``| [``Enqm/API/Methods.hs``](Enqm/API/Methods.hs) |
 |     ``42``| ``Feb``| ``14``| ``21:30``| [``Enqm/API/UnixShell``](Enqm/API/UnixShell) |
 |     ``34``| ``Feb``| ``14``| ``19:26``| [``Enqm/API/UnixShell.hs``](Enqm/API/UnixShell.hs) |
 |     ``576``| ``Feb``| ``14``| ``21:33``| [``Enqm/API/UnixShell/Generated``](Enqm/API/UnixShell/Generated) |
