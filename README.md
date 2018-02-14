@@ -371,4 +371,4 @@
 |     ``21140``| ``Feb``| ``13``| ``18:36``| [``Enqm/DirectAcyclicHyperGraph.hs``](Enqm/DirectAcyclicHyperGraph.hs) |
 |     ``1722``| ``Feb``| ``14``| ``00:59``| [``Enqm/DirectAcyclicHyperGraph/PatriciaTreeWithIORef.hs``](Enqm/DirectAcyclicHyperGraph/PatriciaTreeWithIORef.hs) |
 |     ``420``| ``Feb``| ``13``| ``19:02``| [``Enqm/TransactionsAndSignatures.hs``](Enqm/TransactionsAndSignatures.hs) |
-|     ``167``| ``Feb``| ``14``| ``20:21``| [``enqin.hs``](enqin.hs) |
+|     ``616``| ``Feb``| ``14``| ``20:33``| [``enqin.hs``](enqin.hs) |
