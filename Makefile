@@ -32,7 +32,8 @@ README: gitignore
 	
 	@awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore | sed 's,^!,,' | awk '{ system("ls -dla " $$0); }' | awk '{ for (i = 1; i < NF; i++) { if (i < 5) { $$i = "" } else { $$i = "``" $$i "``|" } } $$(NF) = ("[``" $$(NF) "``](" $$(NF) ")"); print("| " $$0 " |") }' >> README.md
 
-bin: prepare compile
+bin: prepare
+	make compile
 
 prepare:
 	@mkdir Enqm/API/UnixShell/Generated/bin 2> /dev/null || true
