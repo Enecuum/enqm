@@ -12,6 +12,10 @@ data Enqin a
 data KeyPair
 data Wallet
 data Security a
+data UnixPipe a
+data GetOptWith a
+data UnixShellCommand
+data PongStatus
 
 instance Functor Access where
 instance Applicative Access where

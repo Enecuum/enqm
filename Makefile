@@ -38,7 +38,7 @@ bin: prepare
 
 prepare:
 	@mkdir Enqm/API/UnixShell/Generated/bin 2> /dev/null || true
-	@echo "generate" | ghci Enqm/API/UnixShell/Generated.hs > /dev/null 2> /dev/null
+	@echo "generate" | ghci Enqm/API/UnixShell/Generated.hs 2>&1 | grep -q "modules loaded" && echo generated || (echo "generate" | ghci Enqm/API/UnixShell/Generated.hs; exit 1)
 	ghc --make Enqm/API/UnixShell/Generated/getLocalControl.hs -o Enqm/API/UnixShell/Generated/bin/getLocalControl
 
 compile: enqin $(generated)
@@ -49,8 +49,7 @@ enqin: enqin.hs
 	ghc --make $< -o $@
 
 Enqm/API/UnixShell/Generated/bin/%: Enqm/API/UnixShell/Generated/%.hs
-	@ln -sf getLocalControl $@
-	#ghc --make $< -o $@
+	@diff $< Enqm/API/UnixShell/Generated/getLocalControl.hs && ln -sf getLocalControl $@ || ghc --make $< -o $@
 
 clean:
 	find -name "*.o" -or -name "*.hi" -exec rm {} \;

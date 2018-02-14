@@ -17,13 +17,28 @@ _Enqin  = $(functionExtractor "^[^_].*::.* Enqin " )
 enableEnqinCodeAutoreload :: Enqin ()
 enableEnqinCodeAutoreload = error "test code autoreload"
 
-startMining :: Maybe (Control,Miner) -> Access (Miner,Control)
+jsonRpcPipe :: UnixPipe String -> Enqin String
+jsonRpcPipe = error "test json rpc pipe"
+
+data Pongs = Pong PongStatus (Enqin Pongs)
+data Terminal = Terminal String (Enqin Terminal)
+
+pingPeer :: Network -> Peer -> Access (Enqin Pongs)
+pingPeer = undefined
+
+enqman :: GetOptWith UnixShellCommand -> Enqin Terminal
+enqman = undefined
+
+startNetwork :: Maybe (Control,Maybe Network) -> Access (Control,Network)
+startNetwork = undefined
+
+startMining :: Maybe (Control,Maybe Miner) -> Access (Control,Miner)
 startMining = error "mining test"
 
-createWallet :: Maybe (Control,Wallet) -> Access (Wallet,Control)
+createWallet :: Maybe (Control,Wallet) -> Access (Control,Wallet)
 createWallet = error "wallet test"
 
-createKeyPair :: Maybe Control -> Access (Security KeyPair,Control)
+createKeyPair :: Maybe Control -> Access (Control,Security KeyPair)
 createKeyPair = error "key pair test"
 
 getLocalControl :: Access Control
