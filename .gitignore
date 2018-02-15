@@ -60,6 +60,9 @@ exit
 !Enqm/Model/Prolongation.hs
 !Enqm/Smart
 !Enqm/Smart/Logic
+!Enqm/Smart/Logic/PetriNet
+!Enqm/Smart/Logic/PetriNet.hs
+!Enqm/Smart/Logic/PetriNet/Logarithms.hs
 !Enqm/Smart/Logic/Operators.hs
 !Enqm/Smart/Logic/Signatures.hs
 !Enqm/Smart/Events

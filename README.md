@@ -317,7 +317,10 @@
 |     ``39``| ``Feb``| ``13``| ``22:37``| [``Enqm/Model/Cancellation.hs``](Enqm/Model/Cancellation.hs) |
 |     ``38``| ``Feb``| ``13``| ``22:36``| [``Enqm/Model/Prolongation.hs``](Enqm/Model/Prolongation.hs) |
 |     ``70``| ``Feb``| ``15``| ``13:51``| [``Enqm/Smart``](Enqm/Smart) |
-|     ``50``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic``](Enqm/Smart/Logic) |
+|     ``88``| ``Feb``| ``15``| ``14:33``| [``Enqm/Smart/Logic``](Enqm/Smart/Logic) |
+|     ``26``| ``Feb``| ``15``| ``14:33``| [``Enqm/Smart/Logic/PetriNet``](Enqm/Smart/Logic/PetriNet) |
+|     ``40``| ``Feb``| ``15``| ``14:33``| [``Enqm/Smart/Logic/PetriNet.hs``](Enqm/Smart/Logic/PetriNet.hs) |
+|     ``50``| ``Feb``| ``15``| ``14:33``| [``Enqm/Smart/Logic/PetriNet/Logarithms.hs``](Enqm/Smart/Logic/PetriNet/Logarithms.hs) |
 |     ``40``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic/Operators.hs``](Enqm/Smart/Logic/Operators.hs) |
 |     ``42``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic/Signatures.hs``](Enqm/Smart/Logic/Signatures.hs) |
 |     ``72``| ``Feb``| ``15``| ``13:58``| [``Enqm/Smart/Events``](Enqm/Smart/Events) |
