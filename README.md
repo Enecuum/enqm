@@ -438,8 +438,11 @@
 |     ``20``| ``Feb``| ``13``| ``22:09``| [``Enqm/ProofOfStake``](Enqm/ProofOfStake) |
 |     ``33``| ``Feb``| ``13``| ``22:08``| [``Enqm/ProofOfStake.hs``](Enqm/ProofOfStake.hs) |
 |     ``41``| ``Feb``| ``13``| ``22:09``| [``Enqm/ProofOfStake/Minimal.hs``](Enqm/ProofOfStake/Minimal.hs) |
-|     ``230``| ``Feb``| ``15``| ``15:50``| [``Enqm/Serialization``](Enqm/Serialization) |
+|     ``256``| ``Feb``| ``15``| ``15:55``| [``Enqm/Serialization``](Enqm/Serialization) |
 |     ``34``| ``Feb``| ``15``| ``15:47``| [``Enqm/Serialization.hs``](Enqm/Serialization.hs) |
+|     ``22``| ``Feb``| ``15``| ``15:56``| [``Enqm/Serialization/Graph``](Enqm/Serialization/Graph) |
+|     ``39``| ``Feb``| ``15``| ``15:55``| [``Enqm/Serialization/Graph.hs``](Enqm/Serialization/Graph.hs) |
+|     ``48``| ``Feb``| ``15``| ``15:56``| [``Enqm/Serialization/Graph/Ordering.hs``](Enqm/Serialization/Graph/Ordering.hs) |
 |     ``42``| ``Feb``| ``15``| ``15:39``| [``Enqm/Serialization/Generics.hs``](Enqm/Serialization/Generics.hs) |
 |     ``74``| ``Feb``| ``15``| ``15:53``| [``Enqm/Serialization/Presence``](Enqm/Serialization/Presence) |
 |     ``43``| ``Feb``| ``15``| ``15:49``| [``Enqm/Serialization/Presence.hs``](Enqm/Serialization/Presence.hs) |

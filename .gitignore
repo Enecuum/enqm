@@ -182,6 +182,9 @@ exit
 !Enqm/ProofOfStake/Minimal.hs
 !Enqm/Serialization
 !Enqm/Serialization.hs
+!Enqm/Serialization/Graph
+!Enqm/Serialization/Graph.hs
+!Enqm/Serialization/Graph/Ordering.hs
 !Enqm/Serialization/Generics.hs
 !Enqm/Serialization/Presence
 !Enqm/Serialization/Presence.hs
