@@ -421,13 +421,15 @@
 |     ``34``| ``Feb``| ``15``| ``16:15``| [``Enqm/Explorer/Block.hs``](Enqm/Explorer/Block.hs) |
 |     ``33``| ``Feb``| ``15``| ``16:15``| [``Enqm/Explorer/Graph.hs``](Enqm/Explorer/Graph.hs) |
 |     ``36``| ``Feb``| ``15``| ``16:15``| [``Enqm/Explorer/Network.hs``](Enqm/Explorer/Network.hs) |
-|     ``196``| ``Feb``| ``15``| ``16:12``| [``Enqm/Consensus``](Enqm/Consensus) |
+|     ``212``| ``Feb``| ``15``| ``16:43``| [``Enqm/Consensus``](Enqm/Consensus) |
 |     ``28``| ``Feb``| ``15``| ``14:15``| [``Enqm/Consensus.hs``](Enqm/Consensus.hs) |
 |     ``35``| ``Feb``| ``15``| ``16:05``| [``Enqm/Consensus/Block.hs``](Enqm/Consensus/Block.hs) |
 |     ``26``| ``Feb``| ``15``| ``16:12``| [``Enqm/Consensus/Impact``](Enqm/Consensus/Impact) |
 |     ``36``| ``Feb``| ``15``| ``16:12``| [``Enqm/Consensus/Impact.hs``](Enqm/Consensus/Impact.hs) |
 |     ``47``| ``Feb``| ``15``| ``16:12``| [``Enqm/Consensus/Impact/Statistics.hs``](Enqm/Consensus/Impact/Statistics.hs) |
 |     ``36``| ``Feb``| ``15``| ``16:06``| [``Enqm/Consensus/Solver.hs``](Enqm/Consensus/Solver.hs) |
+|     ``36``| ``Feb``| ``15``| ``16:44``| [``Enqm/Consensus/Measures``](Enqm/Consensus/Measures) |
+|     ``54``| ``Feb``| ``15``| ``16:44``| [``Enqm/Consensus/Measures/ProofOfActivity.hs``](Enqm/Consensus/Measures/ProofOfActivity.hs) |
 |     ``38``| ``Feb``| ``15``| ``16:09``| [``Enqm/Consensus/Security.hs``](Enqm/Consensus/Security.hs) |
 |     ``40``| ``Feb``| ``15``| ``16:04``| [``Enqm/Consensus/Macroblock.hs``](Enqm/Consensus/Macroblock.hs) |
 |     ``40``| ``Feb``| ``15``| ``16:05``| [``Enqm/Consensus/Microblock.hs``](Enqm/Consensus/Microblock.hs) |

@@ -170,6 +170,8 @@ exit
 !Enqm/Consensus/Impact.hs
 !Enqm/Consensus/Impact/Statistics.hs
 !Enqm/Consensus/Solver.hs
+!Enqm/Consensus/Measures
+!Enqm/Consensus/Measures/ProofOfActivity.hs
 !Enqm/Consensus/Security.hs
 !Enqm/Consensus/Macroblock.hs
 !Enqm/Consensus/Microblock.hs
