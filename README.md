@@ -318,6 +318,10 @@
 |     ``50``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic``](Enqm/Smart/Logic) |
 |     ``40``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic/Operators.hs``](Enqm/Smart/Logic/Operators.hs) |
 |     ``42``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic/Signatures.hs``](Enqm/Smart/Logic/Signatures.hs) |
+|     ``72``| ``Feb``| ``15``| ``13:58``| [``Enqm/Smart/Events``](Enqm/Smart/Events) |
+|     ``39``| ``Feb``| ``15``| ``13:53``| [``Enqm/Smart/Events/Effect.hs``](Enqm/Smart/Events/Effect.hs) |
+|     ``41``| ``Feb``| ``15``| ``13:55``| [``Enqm/Smart/Events/Planning.hs``](Enqm/Smart/Events/Planning.hs) |
+|     ``45``| ``Feb``| ``15``| ``13:58``| [``Enqm/Smart/Events/Actualization.hs``](Enqm/Smart/Events/Actualization.hs) |
 |     ``56``| ``Feb``| ``15``| ``13:33``| [``Enqm/Smart/Ticket``](Enqm/Smart/Ticket) |
 |     ``38``| ``Feb``| ``15``| ``13:29``| [``Enqm/Smart/Ticket/Token.hs``](Enqm/Smart/Ticket/Token.hs) |
 |     ``39``| ``Feb``| ``15``| ``13:33``| [``Enqm/Smart/Ticket/Cheques.hs``](Enqm/Smart/Ticket/Cheques.hs) |

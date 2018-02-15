@@ -59,6 +59,10 @@ exit
 !Enqm/Smart/Logic
 !Enqm/Smart/Logic/Operators.hs
 !Enqm/Smart/Logic/Signatures.hs
+!Enqm/Smart/Events
+!Enqm/Smart/Events/Effect.hs
+!Enqm/Smart/Events/Planning.hs
+!Enqm/Smart/Events/Actualization.hs
 !Enqm/Smart/Ticket
 !Enqm/Smart/Ticket/Token.hs
 !Enqm/Smart/Ticket/Cheques.hs
