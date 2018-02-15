@@ -284,7 +284,7 @@
 
 | Size |    | Date |    | Path |
 |----|----|----|----|-------|
-|     ``630``| ``Feb``| ``14``| ``21:01``| [``Enqm``](Enqm) |
+|     ``630``| ``Feb``| ``15``| ``12:48``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
 |     ``228``| ``Feb``| ``15``| ``02:20``| [``Enqm/API``](Enqm/API) |
 |     ``23``| ``Feb``| ``14``| ``11:39``| [``Enqm/API.hs``](Enqm/API.hs) |
@@ -305,7 +305,7 @@
 |     ``25``| ``Feb``| ``13``| ``22:19``| [``Enqm/Block.hs``](Enqm/Block.hs) |
 |     ``31``| ``Feb``| ``13``| ``22:23``| [``Enqm/Block/Micro.hs``](Enqm/Block/Micro.hs) |
 |     ``32``| ``Feb``| ``13``| ``22:23``| [``Enqm/Block/Classic.hs``](Enqm/Block/Classic.hs) |
-|     ``126``| ``Feb``| ``15``| ``12:40``| [``Enqm/Model``](Enqm/Model) |
+|     ``126``| ``Feb``| ``15``| ``12:50``| [``Enqm/Model``](Enqm/Model) |
 |     ``114``| ``Feb``| ``15``| ``12:46``| [``Enqm/Model/Folding``](Enqm/Model/Folding) |
 |     ``41``| ``Feb``| ``15``| ``12:41``| [``Enqm/Model/Folding/HashLink.hs``](Enqm/Model/Folding/HashLink.hs) |
 |     ``46``| ``Feb``| ``15``| ``12:42``| [``Enqm/Model/Folding/HashSequence.hs``](Enqm/Model/Folding/HashSequence.hs) |
@@ -315,7 +315,13 @@
 |     ``38``| ``Feb``| ``15``| ``12:39``| [``Enqm/Model/Archivation.hs``](Enqm/Model/Archivation.hs) |
 |     ``39``| ``Feb``| ``13``| ``22:37``| [``Enqm/Model/Cancellation.hs``](Enqm/Model/Cancellation.hs) |
 |     ``38``| ``Feb``| ``13``| ``22:36``| [``Enqm/Model/Prolongation.hs``](Enqm/Model/Prolongation.hs) |
-|     ``162``| ``Feb``| ``15``| ``12:45``| [``Enqm/Ecology``](Enqm/Ecology) |
+|     ``174``| ``Feb``| ``15``| ``12:50``| [``Enqm/Ecology``](Enqm/Ecology) |
+|     ``98``| ``Feb``| ``15``| ``12:56``| [``Enqm/Ecology/Branch``](Enqm/Ecology/Branch) |
+|     ``38``| ``Feb``| ``15``| ``12:51``| [``Enqm/Ecology/Branch/Top.hs``](Enqm/Ecology/Branch/Top.hs) |
+|     ``41``| ``Feb``| ``15``| ``12:56``| [``Enqm/Ecology/Branch/Reward.hs``](Enqm/Ecology/Branch/Reward.hs) |
+|     ``41``| ``Feb``| ``15``| ``12:53``| [``Enqm/Ecology/Branch/BigData.hs``](Enqm/Ecology/Branch/BigData.hs) |
+|     ``43``| ``Feb``| ``15``| ``12:51``| [``Enqm/Ecology/Branch/Private.hs``](Enqm/Ecology/Branch/Private.hs) |
+|     ``46``| ``Feb``| ``15``| ``12:52``| [``Enqm/Ecology/Branch/Statistical.hs``](Enqm/Ecology/Branch/Statistical.hs) |
 |     ``35``| ``Feb``| ``15``| ``12:37``| [``Enqm/Ecology/Scaling.hs``](Enqm/Ecology/Scaling.hs) |
 |     ``37``| ``Feb``| ``13``| ``22:40``| [``Enqm/Ecology/Checking.hs``](Enqm/Ecology/Checking.hs) |
 |     ``35``| ``Feb``| ``13``| ``22:40``| [``Enqm/Ecology/Filtring.hs``](Enqm/Ecology/Filtring.hs) |

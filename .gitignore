@@ -57,6 +57,12 @@ exit
 !Enqm/Model/Cancellation.hs
 !Enqm/Model/Prolongation.hs
 !Enqm/Ecology
+!Enqm/Ecology/Branch
+!Enqm/Ecology/Branch/Top.hs
+!Enqm/Ecology/Branch/Reward.hs
+!Enqm/Ecology/Branch/BigData.hs
+!Enqm/Ecology/Branch/Private.hs
+!Enqm/Ecology/Branch/Statistical.hs
 !Enqm/Ecology/Scaling.hs
 !Enqm/Ecology/Checking.hs
 !Enqm/Ecology/Filtring.hs
