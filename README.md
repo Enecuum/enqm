@@ -411,10 +411,11 @@
 |     ``41``| ``Feb``| ``15``| ``15:35``| [``Enqm/Storage/Manager/Quotas.hs``](Enqm/Storage/Manager/Quotas.hs) |
 |     ``50``| ``Feb``| ``15``| ``15:36``| [``Enqm/Storage/Manager/AllocationPlan.hs``](Enqm/Storage/Manager/AllocationPlan.hs) |
 |     ``51``| ``Feb``| ``15``| ``15:37``| [``Enqm/Storage/Manager/DataParameters.hs``](Enqm/Storage/Manager/DataParameters.hs) |
-|     ``178``| ``Feb``| ``15``| ``16:11``| [``Enqm/Consensus``](Enqm/Consensus) |
+|     ``196``| ``Feb``| ``15``| ``16:12``| [``Enqm/Consensus``](Enqm/Consensus) |
 |     ``28``| ``Feb``| ``15``| ``14:15``| [``Enqm/Consensus.hs``](Enqm/Consensus.hs) |
 |     ``35``| ``Feb``| ``15``| ``16:05``| [``Enqm/Consensus/Block.hs``](Enqm/Consensus/Block.hs) |
 |     ``26``| ``Feb``| ``15``| ``16:12``| [``Enqm/Consensus/Impact``](Enqm/Consensus/Impact) |
+|     ``36``| ``Feb``| ``15``| ``16:12``| [``Enqm/Consensus/Impact.hs``](Enqm/Consensus/Impact.hs) |
 |     ``47``| ``Feb``| ``15``| ``16:12``| [``Enqm/Consensus/Impact/Statistics.hs``](Enqm/Consensus/Impact/Statistics.hs) |
 |     ``36``| ``Feb``| ``15``| ``16:06``| [``Enqm/Consensus/Solver.hs``](Enqm/Consensus/Solver.hs) |
 |     ``38``| ``Feb``| ``15``| ``16:09``| [``Enqm/Consensus/Security.hs``](Enqm/Consensus/Security.hs) |

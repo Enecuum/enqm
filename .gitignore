@@ -157,6 +157,7 @@ exit
 !Enqm/Consensus.hs
 !Enqm/Consensus/Block.hs
 !Enqm/Consensus/Impact
+!Enqm/Consensus/Impact.hs
 !Enqm/Consensus/Impact/Statistics.hs
 !Enqm/Consensus/Solver.hs
 !Enqm/Consensus/Security.hs
