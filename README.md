@@ -286,7 +286,7 @@
 
 | Size |    | Date |    | Path |
 |----|----|----|----|-------|
-|     ``874``| ``Feb``| ``15``| ``16:45``| [``Enqm``](Enqm) |
+|     ``902``| ``Feb``| ``15``| ``16:47``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
 |     ``228``| ``Feb``| ``15``| ``02:20``| [``Enqm/API``](Enqm/API) |
 |     ``23``| ``Feb``| ``14``| ``11:39``| [``Enqm/API.hs``](Enqm/API.hs) |
@@ -495,6 +495,9 @@
 |     ``56``| ``Feb``| ``15``| ``15:46``| [``Enqm/Serialization/Compression/Signatures.hs``](Enqm/Serialization/Compression/Signatures.hs) |
 |     ``47``| ``Feb``| ``15``| ``15:39``| [``Enqm/Serialization/DirectHashing.hs``](Enqm/Serialization/DirectHashing.hs) |
 |     ``48``| ``Feb``| ``15``| ``15:38``| [``Enqm/Serialization/TemplateHaskell.hs``](Enqm/Serialization/TemplateHaskell.hs) |
+|     ``40``| ``Feb``| ``15``| ``16:50``| [``Enqm/QualityBilling``](Enqm/QualityBilling) |
+|     ``42``| ``Feb``| ``15``| ``16:50``| [``Enqm/QualityBilling/Network.hs``](Enqm/QualityBilling/Network.hs) |
+|     ``42``| ``Feb``| ``15``| ``16:49``| [``Enqm/QualityBilling/Storage.hs``](Enqm/QualityBilling/Storage.hs) |
 |     ``18``| ``Feb``| ``15``| ``14:18``| [``Enqm/Confidentiality``](Enqm/Confidentiality) |
 |     ``42``| ``Feb``| ``15``| ``14:18``| [``Enqm/Confidentiality/Wallet.hs``](Enqm/Confidentiality/Wallet.hs) |
 |     ``30``| ``Feb``| ``13``| ``22:00``| [``Enqm/ProofOfActivity``](Enqm/ProofOfActivity) |

@@ -237,6 +237,9 @@ exit
 !Enqm/Serialization/Compression/Signatures.hs
 !Enqm/Serialization/DirectHashing.hs
 !Enqm/Serialization/TemplateHaskell.hs
+!Enqm/QualityBilling
+!Enqm/QualityBilling/Network.hs
+!Enqm/QualityBilling/Storage.hs
 !Enqm/Confidentiality
 !Enqm/Confidentiality/Wallet.hs
 !Enqm/ProofOfActivity
