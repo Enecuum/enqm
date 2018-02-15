@@ -193,6 +193,7 @@ exit
 !Enqm/Serialization/ForStorage.hs
 !Enqm/Serialization/Compression
 !Enqm/Serialization/Compression.hs
+!Enqm/Serialization/Compression/TextData.hs
 !Enqm/Serialization/Compression/Transfers.hs
 !Enqm/Serialization/Compression/PublicKeys.hs
 !Enqm/Serialization/Compression/Signatures.hs

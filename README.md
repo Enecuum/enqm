@@ -449,8 +449,9 @@
 |     ``51``| ``Feb``| ``15``| ``15:52``| [``Enqm/Serialization/Presence/Subgraph.hs``](Enqm/Serialization/Presence/Subgraph.hs) |
 |     ``40``| ``Feb``| ``15``| ``15:42``| [``Enqm/Serialization/ForNetwork.hs``](Enqm/Serialization/ForNetwork.hs) |
 |     ``44``| ``Feb``| ``15``| ``15:43``| [``Enqm/Serialization/ForStorage.hs``](Enqm/Serialization/ForStorage.hs) |
-|     ``76``| ``Feb``| ``15``| ``15:46``| [``Enqm/Serialization/Compression``](Enqm/Serialization/Compression) |
+|     ``98``| ``Feb``| ``15``| ``15:54``| [``Enqm/Serialization/Compression``](Enqm/Serialization/Compression) |
 |     ``45``| ``Feb``| ``15``| ``15:48``| [``Enqm/Serialization/Compression.hs``](Enqm/Serialization/Compression.hs) |
+|     ``53``| ``Feb``| ``15``| ``15:54``| [``Enqm/Serialization/Compression/TextData.hs``](Enqm/Serialization/Compression/TextData.hs) |
 |     ``55``| ``Feb``| ``15``| ``15:46``| [``Enqm/Serialization/Compression/Transfers.hs``](Enqm/Serialization/Compression/Transfers.hs) |
 |     ``49``| ``Feb``| ``15``| ``15:45``| [``Enqm/Serialization/Compression/PublicKeys.hs``](Enqm/Serialization/Compression/PublicKeys.hs) |
 |     ``56``| ``Feb``| ``15``| ``15:46``| [``Enqm/Serialization/Compression/Signatures.hs``](Enqm/Serialization/Compression/Signatures.hs) |
