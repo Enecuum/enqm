@@ -153,7 +153,13 @@ exit
 !Enqm/Storage/Manager/Quotas.hs
 !Enqm/Storage/Manager/AllocationPlan.hs
 !Enqm/Storage/Manager/DataParameters.hs
+!Enqm/Consensus
 !Enqm/Consensus.hs
+!Enqm/Consensus/Block.hs
+!Enqm/Consensus/Solver.hs
+!Enqm/Consensus/Macroblock.hs
+!Enqm/Consensus/Microblock.hs
+!Enqm/Consensus/Publicators.hs
 !Enqm/Macroblock
 !Enqm/Macroblock.hs
 !Enqm/Macroblock/Security.hs
