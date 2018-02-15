@@ -194,6 +194,7 @@ exit
 !Enqm/Statistics/FuzzyDay
 !Enqm/Statistics/FuzzyDay.hs
 !Enqm/Statistics/FuzzyDay/Record.hs
+!Enqm/Statistics/FuzzyDay/MultiBar.hs
 !Enqm/Statistics/Complexity
 !Enqm/Statistics/Complexity/ProofOfWork.hs
 !Enqm/Statistics/SystemHealth.hs
