@@ -208,6 +208,8 @@ exit
 !Enqm/ProofOfWork
 !Enqm/ProofOfWork.hs
 !Enqm/ProofOfWork/PvcnHashLoop.hs
+!Enqm/Cryptography
+!Enqm/Cryptography/EllipticCurves.hs
 !Enqm/ProofOfStake
 !Enqm/ProofOfStake.hs
 !Enqm/ProofOfStake/Minimal.hs
