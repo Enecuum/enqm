@@ -322,7 +322,9 @@
 |     ``38``| ``Feb``| ``15``| ``13:29``| [``Enqm/Smart/Ticket/Token.hs``](Enqm/Smart/Ticket/Token.hs) |
 |     ``39``| ``Feb``| ``15``| ``13:33``| [``Enqm/Smart/Ticket/Cheques.hs``](Enqm/Smart/Ticket/Cheques.hs) |
 |     ``40``| ``Feb``| ``15``| ``13:30``| [``Enqm/Smart/Ticket/Marking.hs``](Enqm/Smart/Ticket/Marking.hs) |
-|     ``60``| ``Feb``| ``15``| ``13:45``| [``Enqm/Smart/Contract``](Enqm/Smart/Contract) |
+|     ``104``| ``Feb``| ``15``| ``13:48``| [``Enqm/Smart/Contract``](Enqm/Smart/Contract) |
+|     ``41``| ``Feb``| ``15``| ``13:47``| [``Enqm/Smart/Contract/Moments.hs``](Enqm/Smart/Contract/Moments.hs) |
+|     ``44``| ``Feb``| ``15``| ``13:48``| [``Enqm/Smart/Contract/Occupancy.hs``](Enqm/Smart/Contract/Occupancy.hs) |
 |     ``45``| ``Feb``| ``15``| ``13:44``| [``Enqm/Smart/Contract/Consequence.hs``](Enqm/Smart/Contract/Consequence.hs) |
 |     ``48``| ``Feb``| ``15``| ``13:45``| [``Enqm/Smart/Contract/Preconditions.hs``](Enqm/Smart/Contract/Preconditions.hs) |
 |     ``104``| ``Feb``| ``15``| ``13:38``| [``Enqm/Smart/Functional``](Enqm/Smart/Functional) |

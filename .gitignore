@@ -64,6 +64,8 @@ exit
 !Enqm/Smart/Ticket/Cheques.hs
 !Enqm/Smart/Ticket/Marking.hs
 !Enqm/Smart/Contract
+!Enqm/Smart/Contract/Moments.hs
+!Enqm/Smart/Contract/Occupancy.hs
 !Enqm/Smart/Contract/Consequence.hs
 !Enqm/Smart/Contract/Preconditions.hs
 !Enqm/Smart/Functional
