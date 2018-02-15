@@ -286,7 +286,7 @@
 
 | Size |    | Date |    | Path |
 |----|----|----|----|-------|
-|     ``800``| ``Feb``| ``15``| ``16:15``| [``Enqm``](Enqm) |
+|     ``850``| ``Feb``| ``15``| ``16:17``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
 |     ``228``| ``Feb``| ``15``| ``02:20``| [``Enqm/API``](Enqm/API) |
 |     ``23``| ``Feb``| ``14``| ``11:39``| [``Enqm/API.hs``](Enqm/API.hs) |
@@ -447,6 +447,9 @@
 |     ``28``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/Complexity``](Enqm/Statistics/Complexity) |
 |     ``54``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/Complexity/ProofOfWork.hs``](Enqm/Statistics/Complexity/ProofOfWork.hs) |
 |     ``44``| ``Feb``| ``13``| ``22:30``| [``Enqm/Statistics/SystemHealth.hs``](Enqm/Statistics/SystemHealth.hs) |
+|     ``32``| ``Feb``| ``15``| ``16:18``| [``Enqm/BonusSystem``](Enqm/BonusSystem) |
+|     ``30``| ``Feb``| ``15``| ``16:17``| [``Enqm/BonusSystem.hs``](Enqm/BonusSystem.hs) |
+|     ``45``| ``Feb``| ``15``| ``16:18``| [``Enqm/BonusSystem/PeerResources.hs``](Enqm/BonusSystem/PeerResources.hs) |
 |     ``30``| ``Feb``| ``13``| ``21:57``| [``Enqm/ProofOfWork``](Enqm/ProofOfWork) |
 |     ``824``| ``Feb``| ``13``| ``21:54``| [``Enqm/ProofOfWork.hs``](Enqm/ProofOfWork.hs) |
 |     ``46``| ``Feb``| ``13``| ``21:57``| [``Enqm/ProofOfWork/PvcnHashLoop.hs``](Enqm/ProofOfWork/PvcnHashLoop.hs) |

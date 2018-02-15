@@ -189,6 +189,9 @@ exit
 !Enqm/Statistics/Complexity
 !Enqm/Statistics/Complexity/ProofOfWork.hs
 !Enqm/Statistics/SystemHealth.hs
+!Enqm/BonusSystem
+!Enqm/BonusSystem.hs
+!Enqm/BonusSystem/PeerResources.hs
 !Enqm/ProofOfWork
 !Enqm/ProofOfWork.hs
 !Enqm/ProofOfWork/PvcnHashLoop.hs
