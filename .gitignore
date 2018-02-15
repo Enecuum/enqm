@@ -155,6 +155,9 @@ exit
 !Enqm/Statistics/Analyse/MarkovChain.hs
 !Enqm/Statistics/Analyse/Interpolation.hs
 !Enqm/Statistics/Analyse/WindowFunction.hs
+!Enqm/Statistics/Reports
+!Enqm/Statistics/Reports/Rate.hs
+!Enqm/Statistics/Reports/Latency.hs
 !Enqm/Statistics/FuzzyDay.hs
 !Enqm/Statistics/Complexity
 !Enqm/Statistics/Complexity/ProofOfWork.hs

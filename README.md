@@ -405,7 +405,7 @@
 |     ``39``| ``Feb``| ``13``| ``22:18``| [``Enqm/Macroblock/Security.hs``](Enqm/Macroblock/Security.hs) |
 |     ``2093``| ``Feb``| ``14``| ``08:38``| [``Enqm/Macroblock/Calculator.hs``](Enqm/Macroblock/Calculator.hs) |
 |     ``43``| ``Feb``| ``13``| ``22:18``| [``Enqm/Macroblock/Publicators.hs``](Enqm/Macroblock/Publicators.hs) |
-|     ``104``| ``Feb``| ``15``| ``12:29``| [``Enqm/Statistics``](Enqm/Statistics) |
+|     ``118``| ``Feb``| ``15``| ``14:10``| [``Enqm/Statistics``](Enqm/Statistics) |
 |     ``30``| ``Feb``| ``13``| ``22:25``| [``Enqm/Statistics.hs``](Enqm/Statistics.hs) |
 |     ``38``| ``Feb``| ``15``| ``12:28``| [``Enqm/Statistics/Voting.hs``](Enqm/Statistics/Voting.hs) |
 |     ``120``| ``Feb``| ``15``| ``12:35``| [``Enqm/Statistics/Analyse``](Enqm/Statistics/Analyse) |
@@ -413,6 +413,9 @@
 |     ``52``| ``Feb``| ``15``| ``12:31``| [``Enqm/Statistics/Analyse/MarkovChain.hs``](Enqm/Statistics/Analyse/MarkovChain.hs) |
 |     ``50``| ``Feb``| ``15``| ``12:35``| [``Enqm/Statistics/Analyse/Interpolation.hs``](Enqm/Statistics/Analyse/Interpolation.hs) |
 |     ``50``| ``Feb``| ``15``| ``12:34``| [``Enqm/Statistics/Analyse/WindowFunction.hs``](Enqm/Statistics/Analyse/WindowFunction.hs) |
+|     ``34``| ``Feb``| ``15``| ``14:14``| [``Enqm/Statistics/Reports``](Enqm/Statistics/Reports) |
+|     ``41``| ``Feb``| ``15``| ``14:11``| [``Enqm/Statistics/Reports/Rate.hs``](Enqm/Statistics/Reports/Rate.hs) |
+|     ``45``| ``Feb``| ``15``| ``14:13``| [``Enqm/Statistics/Reports/Latency.hs``](Enqm/Statistics/Reports/Latency.hs) |
 |     ``40``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/FuzzyDay.hs``](Enqm/Statistics/FuzzyDay.hs) |
 |     ``28``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/Complexity``](Enqm/Statistics/Complexity) |
 |     ``54``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/Complexity/ProofOfWork.hs``](Enqm/Statistics/Complexity/ProofOfWork.hs) |
