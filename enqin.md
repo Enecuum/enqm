@@ -19,6 +19,22 @@ do
     { "method": "pvcnHashLoop", "data", "$stat" }
   EOF
 done
+exit
+
+
+#!/usr/bin/env enqin
+enqout --id 1 --save-publickeys-to ~/public.txt --save-keypairs-to-folder /mnt/security-disk/private-keys/
+pub=`createKeyPair | enqout --public-key`
+for i in `seq 1 100`
+do
+  for j in `seq 1 100`
+  do
+    createKeyPair --encrypt-with $pub
+  done
+  enqout --all-pending-public-keys | createWallet
+done
+enqout --id 1 --clear
+exit
 
 
 ```
