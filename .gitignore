@@ -105,7 +105,9 @@ exit
 !Enqm/Ecology/Security.hs
 !Enqm/Ecology/Sharding
 !Enqm/Ecology/Sharding.hs
+!Enqm/Ecology/Sharding/Seeding
 !Enqm/Ecology/Sharding/Seeding.hs
+!Enqm/Ecology/Sharding/Seeding/Outline.hs
 !Enqm/Ecology/Sharding/Background
 !Enqm/Ecology/Sharding/Background/Garbage.hs
 !Enqm/Ecology/Sharding/Background/Manager.hs
