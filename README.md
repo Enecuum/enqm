@@ -438,7 +438,7 @@
 |     ``39``| ``Feb``| ``13``| ``22:18``| [``Enqm/Macroblock/Security.hs``](Enqm/Macroblock/Security.hs) |
 |     ``2093``| ``Feb``| ``14``| ``08:38``| [``Enqm/Macroblock/Calculator.hs``](Enqm/Macroblock/Calculator.hs) |
 |     ``43``| ``Feb``| ``13``| ``22:18``| [``Enqm/Macroblock/Publicators.hs``](Enqm/Macroblock/Publicators.hs) |
-|     ``118``| ``Feb``| ``15``| ``14:10``| [``Enqm/Statistics``](Enqm/Statistics) |
+|     ``134``| ``Feb``| ``15``| ``16:36``| [``Enqm/Statistics``](Enqm/Statistics) |
 |     ``30``| ``Feb``| ``13``| ``22:25``| [``Enqm/Statistics.hs``](Enqm/Statistics.hs) |
 |     ``38``| ``Feb``| ``15``| ``12:28``| [``Enqm/Statistics/Voting.hs``](Enqm/Statistics/Voting.hs) |
 |     ``120``| ``Feb``| ``15``| ``12:35``| [``Enqm/Statistics/Analyse``](Enqm/Statistics/Analyse) |
@@ -449,7 +449,9 @@
 |     ``34``| ``Feb``| ``15``| ``14:14``| [``Enqm/Statistics/Reports``](Enqm/Statistics/Reports) |
 |     ``41``| ``Feb``| ``15``| ``14:11``| [``Enqm/Statistics/Reports/Rate.hs``](Enqm/Statistics/Reports/Rate.hs) |
 |     ``45``| ``Feb``| ``15``| ``14:13``| [``Enqm/Statistics/Reports/Latency.hs``](Enqm/Statistics/Reports/Latency.hs) |
+|     ``18``| ``Feb``| ``15``| ``16:37``| [``Enqm/Statistics/FuzzyDay``](Enqm/Statistics/FuzzyDay) |
 |     ``40``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/FuzzyDay.hs``](Enqm/Statistics/FuzzyDay.hs) |
+|     ``46``| ``Feb``| ``15``| ``16:37``| [``Enqm/Statistics/FuzzyDay/Record.hs``](Enqm/Statistics/FuzzyDay/Record.hs) |
 |     ``28``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/Complexity``](Enqm/Statistics/Complexity) |
 |     ``54``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/Complexity/ProofOfWork.hs``](Enqm/Statistics/Complexity/ProofOfWork.hs) |
 |     ``44``| ``Feb``| ``13``| ``22:30``| [``Enqm/Statistics/SystemHealth.hs``](Enqm/Statistics/SystemHealth.hs) |

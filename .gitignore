@@ -191,7 +191,9 @@ exit
 !Enqm/Statistics/Reports
 !Enqm/Statistics/Reports/Rate.hs
 !Enqm/Statistics/Reports/Latency.hs
+!Enqm/Statistics/FuzzyDay
 !Enqm/Statistics/FuzzyDay.hs
+!Enqm/Statistics/FuzzyDay/Record.hs
 !Enqm/Statistics/Complexity
 !Enqm/Statistics/Complexity/ProofOfWork.hs
 !Enqm/Statistics/SystemHealth.hs
