@@ -284,7 +284,7 @@
 
 | Size |    | Date |    | Path |
 |----|----|----|----|-------|
-|     ``640``| ``Feb``| ``15``| ``13:25``| [``Enqm``](Enqm) |
+|     ``694``| ``Feb``| ``15``| ``14:17``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
 |     ``228``| ``Feb``| ``15``| ``02:20``| [``Enqm/API``](Enqm/API) |
 |     ``23``| ``Feb``| ``14``| ``11:39``| [``Enqm/API.hs``](Enqm/API.hs) |
@@ -400,6 +400,7 @@
 |     ``24``| ``Feb``| ``13``| ``23:13``| [``Enqm/Network/HolePunching``](Enqm/Network/HolePunching) |
 |     ``43``| ``Feb``| ``13``| ``23:13``| [``Enqm/Network/HolePunching/TCP.hs``](Enqm/Network/HolePunching/TCP.hs) |
 |     ``43``| ``Feb``| ``13``| ``23:12``| [``Enqm/Network/HolePunching/UDP.hs``](Enqm/Network/HolePunching/UDP.hs) |
+|     ``28``| ``Feb``| ``15``| ``14:15``| [``Enqm/Consensus.hs``](Enqm/Consensus.hs) |
 |     ``76``| ``Feb``| ``14``| ``08:38``| [``Enqm/Macroblock``](Enqm/Macroblock) |
 |     ``31``| ``Feb``| ``13``| ``22:17``| [``Enqm/Macroblock.hs``](Enqm/Macroblock.hs) |
 |     ``39``| ``Feb``| ``13``| ``22:18``| [``Enqm/Macroblock/Security.hs``](Enqm/Macroblock/Security.hs) |
@@ -426,6 +427,8 @@
 |     ``20``| ``Feb``| ``13``| ``22:09``| [``Enqm/ProofOfStake``](Enqm/ProofOfStake) |
 |     ``33``| ``Feb``| ``13``| ``22:08``| [``Enqm/ProofOfStake.hs``](Enqm/ProofOfStake.hs) |
 |     ``41``| ``Feb``| ``13``| ``22:09``| [``Enqm/ProofOfStake/Minimal.hs``](Enqm/ProofOfStake/Minimal.hs) |
+|     ``18``| ``Feb``| ``15``| ``14:18``| [``Enqm/Confidentiality``](Enqm/Confidentiality) |
+|     ``42``| ``Feb``| ``15``| ``14:18``| [``Enqm/Confidentiality/Wallet.hs``](Enqm/Confidentiality/Wallet.hs) |
 |     ``30``| ``Feb``| ``13``| ``22:00``| [``Enqm/ProofOfActivity``](Enqm/ProofOfActivity) |
 |     ``36``| ``Feb``| ``13``| ``22:01``| [``Enqm/ProofOfActivity.hs``](Enqm/ProofOfActivity.hs) |
 |     ``30``| ``Feb``| ``13``| ``22:01``| [``Enqm/ProofOfActivity/PowVerification``](Enqm/ProofOfActivity/PowVerification) |

@@ -142,6 +142,7 @@ exit
 !Enqm/Network/HolePunching
 !Enqm/Network/HolePunching/TCP.hs
 !Enqm/Network/HolePunching/UDP.hs
+!Enqm/Consensus.hs
 !Enqm/Macroblock
 !Enqm/Macroblock.hs
 !Enqm/Macroblock/Security.hs
@@ -168,6 +169,8 @@ exit
 !Enqm/ProofOfStake
 !Enqm/ProofOfStake.hs
 !Enqm/ProofOfStake/Minimal.hs
+!Enqm/Confidentiality
+!Enqm/Confidentiality/Wallet.hs
 !Enqm/ProofOfActivity
 !Enqm/ProofOfActivity.hs
 !Enqm/ProofOfActivity/PowVerification
