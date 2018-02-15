@@ -284,7 +284,7 @@
 
 | Size |    | Date |    | Path |
 |----|----|----|----|-------|
-|     ``630``| ``Feb``| ``15``| ``12:48``| [``Enqm``](Enqm) |
+|     ``640``| ``Feb``| ``15``| ``13:25``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
 |     ``228``| ``Feb``| ``15``| ``02:20``| [``Enqm/API``](Enqm/API) |
 |     ``23``| ``Feb``| ``14``| ``11:39``| [``Enqm/API.hs``](Enqm/API.hs) |
@@ -315,6 +315,24 @@
 |     ``38``| ``Feb``| ``15``| ``12:39``| [``Enqm/Model/Archivation.hs``](Enqm/Model/Archivation.hs) |
 |     ``39``| ``Feb``| ``13``| ``22:37``| [``Enqm/Model/Cancellation.hs``](Enqm/Model/Cancellation.hs) |
 |     ``38``| ``Feb``| ``13``| ``22:36``| [``Enqm/Model/Prolongation.hs``](Enqm/Model/Prolongation.hs) |
+|     ``50``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic``](Enqm/Smart/Logic) |
+|     ``40``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic/Operators.hs``](Enqm/Smart/Logic/Operators.hs) |
+|     ``42``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic/Signatures.hs``](Enqm/Smart/Logic/Signatures.hs) |
+|     ``56``| ``Feb``| ``15``| ``13:33``| [``Enqm/Smart/Ticket``](Enqm/Smart/Ticket) |
+|     ``38``| ``Feb``| ``15``| ``13:29``| [``Enqm/Smart/Ticket/Token.hs``](Enqm/Smart/Ticket/Token.hs) |
+|     ``39``| ``Feb``| ``15``| ``13:33``| [``Enqm/Smart/Ticket/Cheques.hs``](Enqm/Smart/Ticket/Cheques.hs) |
+|     ``40``| ``Feb``| ``15``| ``13:30``| [``Enqm/Smart/Ticket/Marking.hs``](Enqm/Smart/Ticket/Marking.hs) |
+|     ``60``| ``Feb``| ``15``| ``13:45``| [``Enqm/Smart/Contract``](Enqm/Smart/Contract) |
+|     ``45``| ``Feb``| ``15``| ``13:44``| [``Enqm/Smart/Contract/Consequence.hs``](Enqm/Smart/Contract/Consequence.hs) |
+|     ``48``| ``Feb``| ``15``| ``13:45``| [``Enqm/Smart/Contract/Preconditions.hs``](Enqm/Smart/Contract/Preconditions.hs) |
+|     ``104``| ``Feb``| ``15``| ``13:38``| [``Enqm/Smart/Functional``](Enqm/Smart/Functional) |
+|     ``46``| ``Feb``| ``15``| ``13:37``| [``Enqm/Smart/Functional/PureState.hs``](Enqm/Smart/Functional/PureState.hs) |
+|     ``47``| ``Feb``| ``15``| ``13:36``| [``Enqm/Smart/Functional/Indicators.hs``](Enqm/Smart/Functional/Indicators.hs) |
+|     ``86``| ``Feb``| ``15``| ``13:41``| [``Enqm/Smart/Functional/StateLinking``](Enqm/Smart/Functional/StateLinking) |
+|     ``48``| ``Feb``| ``15``| ``13:38``| [``Enqm/Smart/Functional/StateLinking.hs``](Enqm/Smart/Functional/StateLinking.hs) |
+|     ``58``| ``Feb``| ``15``| ``13:39``| [``Enqm/Smart/Functional/StateLinking/Security.hs``](Enqm/Smart/Functional/StateLinking/Security.hs) |
+|     ``61``| ``Feb``| ``15``| ``13:40``| [``Enqm/Smart/Functional/StateLinking/Automaticity.hs``](Enqm/Smart/Functional/StateLinking/Automaticity.hs) |
+|     ``64``| ``Feb``| ``15``| ``13:41``| [``Enqm/Smart/Functional/StateLinking/Responsibility.hs``](Enqm/Smart/Functional/StateLinking/Responsibility.hs) |
 |     ``190``| ``Feb``| ``15``| ``13:02``| [``Enqm/Ecology``](Enqm/Ecology) |
 |     ``182``| ``Feb``| ``15``| ``13:02``| [``Enqm/Ecology/Branch``](Enqm/Ecology/Branch) |
 |     ``38``| ``Feb``| ``15``| ``12:51``| [``Enqm/Ecology/Branch/Top.hs``](Enqm/Ecology/Branch/Top.hs) |
