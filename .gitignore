@@ -21,6 +21,8 @@ exit
 !enqin.md
 !scripts
 !scripts/*.sh
+!images
+!images/*
 
 
 
