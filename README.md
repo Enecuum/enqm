@@ -286,7 +286,7 @@
 
 | Size |    | Date |    | Path |
 |----|----|----|----|-------|
-|     ``902``| ``Feb``| ``15``| ``16:47``| [``Enqm``](Enqm) |
+|     ``932``| ``Feb``| ``15``| ``16:52``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
 |     ``228``| ``Feb``| ``15``| ``02:20``| [``Enqm/API``](Enqm/API) |
 |     ``23``| ``Feb``| ``14``| ``11:39``| [``Enqm/API.hs``](Enqm/API.hs) |
@@ -346,6 +346,10 @@
 |     ``58``| ``Feb``| ``15``| ``13:39``| [``Enqm/Smart/Functional/StateLinking/Security.hs``](Enqm/Smart/Functional/StateLinking/Security.hs) |
 |     ``61``| ``Feb``| ``15``| ``13:40``| [``Enqm/Smart/Functional/StateLinking/Automaticity.hs``](Enqm/Smart/Functional/StateLinking/Automaticity.hs) |
 |     ``64``| ``Feb``| ``15``| ``13:41``| [``Enqm/Smart/Functional/StateLinking/Responsibility.hs``](Enqm/Smart/Functional/StateLinking/Responsibility.hs) |
+|     ``56``| ``Feb``| ``15``| ``16:53``| [``Enqm/Ledger``](Enqm/Ledger) |
+|     ``26``| ``Feb``| ``15``| ``16:52``| [``Enqm/Ledger.hs``](Enqm/Ledger.hs) |
+|     ``36``| ``Feb``| ``15``| ``16:52``| [``Enqm/Ledger/MapReduce.hs``](Enqm/Ledger/MapReduce.hs) |
+|     ``40``| ``Feb``| ``15``| ``16:53``| [``Enqm/Ledger/ControlPoints.hs``](Enqm/Ledger/ControlPoints.hs) |
 |     ``190``| ``Feb``| ``15``| ``13:02``| [``Enqm/Ecology``](Enqm/Ecology) |
 |     ``182``| ``Feb``| ``15``| ``13:02``| [``Enqm/Ecology/Branch``](Enqm/Ecology/Branch) |
 |     ``38``| ``Feb``| ``15``| ``12:51``| [``Enqm/Ecology/Branch/Top.hs``](Enqm/Ecology/Branch/Top.hs) |

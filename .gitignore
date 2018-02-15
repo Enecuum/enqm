@@ -88,6 +88,10 @@ exit
 !Enqm/Smart/Functional/StateLinking/Security.hs
 !Enqm/Smart/Functional/StateLinking/Automaticity.hs
 !Enqm/Smart/Functional/StateLinking/Responsibility.hs
+!Enqm/Ledger
+!Enqm/Ledger.hs
+!Enqm/Ledger/MapReduce.hs
+!Enqm/Ledger/ControlPoints.hs
 !Enqm/Ecology
 !Enqm/Ecology/Branch
 !Enqm/Ecology/Branch/Top.hs
