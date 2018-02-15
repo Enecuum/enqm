@@ -449,10 +449,11 @@
 |     ``34``| ``Feb``| ``15``| ``14:14``| [``Enqm/Statistics/Reports``](Enqm/Statistics/Reports) |
 |     ``41``| ``Feb``| ``15``| ``14:11``| [``Enqm/Statistics/Reports/Rate.hs``](Enqm/Statistics/Reports/Rate.hs) |
 |     ``45``| ``Feb``| ``15``| ``14:13``| [``Enqm/Statistics/Reports/Latency.hs``](Enqm/Statistics/Reports/Latency.hs) |
-|     ``40``| ``Feb``| ``15``| ``16:39``| [``Enqm/Statistics/FuzzyDay``](Enqm/Statistics/FuzzyDay) |
+|     ``68``| ``Feb``| ``15``| ``16:40``| [``Enqm/Statistics/FuzzyDay``](Enqm/Statistics/FuzzyDay) |
 |     ``40``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/FuzzyDay.hs``](Enqm/Statistics/FuzzyDay.hs) |
 |     ``46``| ``Feb``| ``15``| ``16:37``| [``Enqm/Statistics/FuzzyDay/Record.hs``](Enqm/Statistics/FuzzyDay/Record.hs) |
 |     ``48``| ``Feb``| ``15``| ``16:38``| [``Enqm/Statistics/FuzzyDay/MultiBar.hs``](Enqm/Statistics/FuzzyDay/MultiBar.hs) |
+|     ``52``| ``Feb``| ``15``| ``16:40``| [``Enqm/Statistics/FuzzyDay/Competition.hs``](Enqm/Statistics/FuzzyDay/Competition.hs) |
 |     ``28``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/Complexity``](Enqm/Statistics/Complexity) |
 |     ``54``| ``Feb``| ``13``| ``22:28``| [``Enqm/Statistics/Complexity/ProofOfWork.hs``](Enqm/Statistics/Complexity/ProofOfWork.hs) |
 |     ``44``| ``Feb``| ``13``| ``22:30``| [``Enqm/Statistics/SystemHealth.hs``](Enqm/Statistics/SystemHealth.hs) |
