@@ -346,8 +346,9 @@
 |     ``58``| ``Feb``| ``15``| ``13:39``| [``Enqm/Smart/Functional/StateLinking/Security.hs``](Enqm/Smart/Functional/StateLinking/Security.hs) |
 |     ``61``| ``Feb``| ``15``| ``13:40``| [``Enqm/Smart/Functional/StateLinking/Automaticity.hs``](Enqm/Smart/Functional/StateLinking/Automaticity.hs) |
 |     ``64``| ``Feb``| ``15``| ``13:41``| [``Enqm/Smart/Functional/StateLinking/Responsibility.hs``](Enqm/Smart/Functional/StateLinking/Responsibility.hs) |
-|     ``84``| ``Feb``| ``15``| ``16:53``| [``Enqm/Ledger``](Enqm/Ledger) |
+|     ``106``| ``Feb``| ``15``| ``16:54``| [``Enqm/Ledger``](Enqm/Ledger) |
 |     ``26``| ``Feb``| ``15``| ``16:52``| [``Enqm/Ledger.hs``](Enqm/Ledger.hs) |
+|     ``35``| ``Feb``| ``15``| ``16:54``| [``Enqm/Ledger/Security.hs``](Enqm/Ledger/Security.hs) |
 |     ``36``| ``Feb``| ``15``| ``16:52``| [``Enqm/Ledger/MapReduce.hs``](Enqm/Ledger/MapReduce.hs) |
 |     ``38``| ``Feb``| ``15``| ``16:53``| [``Enqm/Ledger/Memoization.hs``](Enqm/Ledger/Memoization.hs) |
 |     ``40``| ``Feb``| ``15``| ``16:53``| [``Enqm/Ledger/ControlPoints.hs``](Enqm/Ledger/ControlPoints.hs) |

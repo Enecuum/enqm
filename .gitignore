@@ -90,6 +90,7 @@ exit
 !Enqm/Smart/Functional/StateLinking/Responsibility.hs
 !Enqm/Ledger
 !Enqm/Ledger.hs
+!Enqm/Ledger/Security.hs
 !Enqm/Ledger/MapReduce.hs
 !Enqm/Ledger/Memoization.hs
 !Enqm/Ledger/ControlPoints.hs
