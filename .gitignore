@@ -53,6 +53,7 @@ exit
 !Enqm/Model/Folding/HashSequence.hs
 !Enqm/Model/Folding/LedgerPoints.hs
 !Enqm/Model/Folding/ShardingLevel.hs
+!Enqm/Model/Branching.hs
 !Enqm/Model/Migration.hs
 !Enqm/Model/Archivation.hs
 !Enqm/Model/Cancellation.hs
