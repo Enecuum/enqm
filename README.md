@@ -315,6 +315,7 @@
 |     ``38``| ``Feb``| ``15``| ``12:39``| [``Enqm/Model/Archivation.hs``](Enqm/Model/Archivation.hs) |
 |     ``39``| ``Feb``| ``13``| ``22:37``| [``Enqm/Model/Cancellation.hs``](Enqm/Model/Cancellation.hs) |
 |     ``38``| ``Feb``| ``13``| ``22:36``| [``Enqm/Model/Prolongation.hs``](Enqm/Model/Prolongation.hs) |
+|     ``70``| ``Feb``| ``15``| ``13:51``| [``Enqm/Smart``](Enqm/Smart) |
 |     ``50``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic``](Enqm/Smart/Logic) |
 |     ``40``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic/Operators.hs``](Enqm/Smart/Logic/Operators.hs) |
 |     ``42``| ``Feb``| ``15``| ``13:35``| [``Enqm/Smart/Logic/Signatures.hs``](Enqm/Smart/Logic/Signatures.hs) |
@@ -354,6 +355,7 @@
 |     ``37``| ``Feb``| ``13``| ``22:40``| [``Enqm/Ecology/Checking.hs``](Enqm/Ecology/Checking.hs) |
 |     ``35``| ``Feb``| ``13``| ``22:40``| [``Enqm/Ecology/Filtring.hs``](Enqm/Ecology/Filtring.hs) |
 |     ``36``| ``Feb``| ``15``| ``12:37``| [``Enqm/Ecology/Security.hs``](Enqm/Ecology/Security.hs) |
+|     ``66``| ``Feb``| ``15``| ``13:06``| [``Enqm/Ecology/Sharding``](Enqm/Ecology/Sharding) |
 |     ``36``| ``Feb``| ``13``| ``22:39``| [``Enqm/Ecology/Sharding.hs``](Enqm/Ecology/Sharding.hs) |
 |     ``62``| ``Feb``| ``15``| ``13:16``| [``Enqm/Ecology/Sharding/Background``](Enqm/Ecology/Sharding/Background) |
 |     ``54``| ``Feb``| ``15``| ``13:16``| [``Enqm/Ecology/Sharding/Background/Garbage.hs``](Enqm/Ecology/Sharding/Background/Garbage.hs) |
@@ -421,6 +423,7 @@
 |     ``20``| ``Feb``| ``13``| ``22:09``| [``Enqm/ProofOfStake``](Enqm/ProofOfStake) |
 |     ``33``| ``Feb``| ``13``| ``22:08``| [``Enqm/ProofOfStake.hs``](Enqm/ProofOfStake.hs) |
 |     ``41``| ``Feb``| ``13``| ``22:09``| [``Enqm/ProofOfStake/Minimal.hs``](Enqm/ProofOfStake/Minimal.hs) |
+|     ``30``| ``Feb``| ``13``| ``22:00``| [``Enqm/ProofOfActivity``](Enqm/ProofOfActivity) |
 |     ``36``| ``Feb``| ``13``| ``22:01``| [``Enqm/ProofOfActivity.hs``](Enqm/ProofOfActivity.hs) |
 |     ``30``| ``Feb``| ``13``| ``22:01``| [``Enqm/ProofOfActivity/PowVerification``](Enqm/ProofOfActivity/PowVerification) |
 |     ``65``| ``Feb``| ``13``| ``22:00``| [``Enqm/ProofOfActivity/PowVerification/PvcnHashLoop.hs``](Enqm/ProofOfActivity/PowVerification/PvcnHashLoop.hs) |

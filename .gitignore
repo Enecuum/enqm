@@ -4,7 +4,8 @@ test -f .gitignore && grep -q "^#GENERATED" < .gitignore || exit 1
 tmp=`mktemp --suffix _gitignore`
 awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a==1) { print $0 }; a++; } else { print $0 } }' < .gitignore > $tmp
 awk '/^#GENERATED/ { a = 1 } { if(a>0) { if (a>1) { print $0; }; a++; } }' < .gitignore > $tmp.generated
-find -name "*.hs" -exec dirname {} \; -exec echo {} \; | sed 's,^\./,!,' | grep -v "^\." | grep -v "Generated/" | grep -v "Generated$" >> $tmp.generated
+find -name "*.hs" -exec sh -c 'dirname `dirname {}`' \; -exec dirname {} \; -exec echo {} \; \
+	| sed 's,^\./,!,' | grep -v "^\." | grep -v "Generated/" | grep -v "Generated$" >> $tmp.generated
 (cat $tmp; awk -F"/" '{ for(i = 1; i <= 20; i++) { v = gensub(/\..*$/,"","g",$i); printf("%03d%-50s",length(v),v) } print v "==" $0 }' $tmp.generated \
 	| sort -n | sed 's,^.*==,,' | uniq | gawk -F"!" '@load "filefuncs"; { if(stat($2,fstat) == 0) { print $0 } }') > .gitignore
 exit
@@ -56,6 +57,7 @@ exit
 !Enqm/Model/Archivation.hs
 !Enqm/Model/Cancellation.hs
 !Enqm/Model/Prolongation.hs
+!Enqm/Smart
 !Enqm/Smart/Logic
 !Enqm/Smart/Logic/Operators.hs
 !Enqm/Smart/Logic/Signatures.hs
@@ -95,6 +97,7 @@ exit
 !Enqm/Ecology/Checking.hs
 !Enqm/Ecology/Filtring.hs
 !Enqm/Ecology/Security.hs
+!Enqm/Ecology/Sharding
 !Enqm/Ecology/Sharding.hs
 !Enqm/Ecology/Sharding/Background
 !Enqm/Ecology/Sharding/Background/Garbage.hs
@@ -162,6 +165,7 @@ exit
 !Enqm/ProofOfStake
 !Enqm/ProofOfStake.hs
 !Enqm/ProofOfStake/Minimal.hs
+!Enqm/ProofOfActivity
 !Enqm/ProofOfActivity.hs
 !Enqm/ProofOfActivity/PowVerification
 !Enqm/ProofOfActivity/PowVerification/PvcnHashLoop.hs
