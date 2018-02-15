@@ -24,14 +24,15 @@ exit
 
 #!/usr/bin/env enqin
 enqout --id 1 --save-publickeys-to ~/public.txt --save-keypairs-to-folder /mnt/security-disk/private-keys/
-pub=`createKeyPair | enqout --public-key`
+flashkey=`createKeyPair | enqout --public-key`
 for i in `seq 1 100`
 do
+  walletkey=`createKeyPair | enqout --keep-in-stack --public-key`
   for j in `seq 1 100`
   do
-    createKeyPair --encrypt-with $pub
+    createKeyPair --encrypt-everyting-with $flashkey
   done
-  enqout --all-pending-public-keys | createWallet
+  enqout --all-pending-public-keys | createWallet --encrypt-everyting-with $walletkey
 done
 enqout --id 1 --clear
 exit
