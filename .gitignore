@@ -91,6 +91,7 @@ exit
 !Enqm/Ledger
 !Enqm/Ledger.hs
 !Enqm/Ledger/MapReduce.hs
+!Enqm/Ledger/Memoization.hs
 !Enqm/Ledger/ControlPoints.hs
 !Enqm/Ecology
 !Enqm/Ecology/Branch
