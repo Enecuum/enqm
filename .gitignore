@@ -192,6 +192,7 @@ exit
 !Enqm/BonusSystem
 !Enqm/BonusSystem.hs
 !Enqm/BonusSystem/PeerResources.hs
+!Enqm/BonusSystem/TimeAgainstRisk.hs
 !Enqm/ProofOfWork
 !Enqm/ProofOfWork.hs
 !Enqm/ProofOfWork/PvcnHashLoop.hs
