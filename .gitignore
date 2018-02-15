@@ -153,6 +153,10 @@ exit
 !Enqm/Storage/Manager/Quotas.hs
 !Enqm/Storage/Manager/AllocationPlan.hs
 !Enqm/Storage/Manager/DataParameters.hs
+!Enqm/Explorer
+!Enqm/Explorer/Block.hs
+!Enqm/Explorer/Graph.hs
+!Enqm/Explorer/Network.hs
 !Enqm/Consensus
 !Enqm/Consensus.hs
 !Enqm/Consensus/Block.hs
