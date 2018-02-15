@@ -124,6 +124,7 @@ exit
 !Enqm/Ecology/Duplication.hs
 !Enqm/Network
 !Enqm/Network.hs
+!Enqm/Network/Quotas.hs
 !Enqm/Network/Routing.hs
 !Enqm/Network/PeerProxy.hs
 !Enqm/Network/Receiving
