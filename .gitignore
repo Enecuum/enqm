@@ -184,6 +184,7 @@ exit
 !Enqm/Serialization.hs
 !Enqm/Serialization/Graph
 !Enqm/Serialization/Graph.hs
+!Enqm/Serialization/Graph/Quick.hs
 !Enqm/Serialization/Graph/Ordering.hs
 !Enqm/Serialization/Generics.hs
 !Enqm/Serialization/Presence
