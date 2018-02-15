@@ -286,7 +286,7 @@
 
 | Size |    | Date |    | Path |
 |----|----|----|----|-------|
-|     ``694``| ``Feb``| ``15``| ``14:17``| [``Enqm``](Enqm) |
+|     ``766``| ``Feb``| ``15``| ``15:47``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
 |     ``228``| ``Feb``| ``15``| ``02:20``| [``Enqm/API``](Enqm/API) |
 |     ``23``| ``Feb``| ``14``| ``11:39``| [``Enqm/API.hs``](Enqm/API.hs) |
@@ -406,6 +406,11 @@
 |     ``24``| ``Feb``| ``13``| ``23:13``| [``Enqm/Network/HolePunching``](Enqm/Network/HolePunching) |
 |     ``43``| ``Feb``| ``13``| ``23:13``| [``Enqm/Network/HolePunching/TCP.hs``](Enqm/Network/HolePunching/TCP.hs) |
 |     ``43``| ``Feb``| ``13``| ``23:12``| [``Enqm/Network/HolePunching/UDP.hs``](Enqm/Network/HolePunching/UDP.hs) |
+|     ``14``| ``Feb``| ``15``| ``15:34``| [``Enqm/Storage``](Enqm/Storage) |
+|     ``86``| ``Feb``| ``15``| ``15:38``| [``Enqm/Storage/Manager``](Enqm/Storage/Manager) |
+|     ``41``| ``Feb``| ``15``| ``15:35``| [``Enqm/Storage/Manager/Quotas.hs``](Enqm/Storage/Manager/Quotas.hs) |
+|     ``50``| ``Feb``| ``15``| ``15:36``| [``Enqm/Storage/Manager/AllocationPlan.hs``](Enqm/Storage/Manager/AllocationPlan.hs) |
+|     ``51``| ``Feb``| ``15``| ``15:37``| [``Enqm/Storage/Manager/DataParameters.hs``](Enqm/Storage/Manager/DataParameters.hs) |
 |     ``28``| ``Feb``| ``15``| ``14:15``| [``Enqm/Consensus.hs``](Enqm/Consensus.hs) |
 |     ``76``| ``Feb``| ``14``| ``08:38``| [``Enqm/Macroblock``](Enqm/Macroblock) |
 |     ``31``| ``Feb``| ``13``| ``22:17``| [``Enqm/Macroblock.hs``](Enqm/Macroblock.hs) |
@@ -433,6 +438,24 @@
 |     ``20``| ``Feb``| ``13``| ``22:09``| [``Enqm/ProofOfStake``](Enqm/ProofOfStake) |
 |     ``33``| ``Feb``| ``13``| ``22:08``| [``Enqm/ProofOfStake.hs``](Enqm/ProofOfStake.hs) |
 |     ``41``| ``Feb``| ``13``| ``22:09``| [``Enqm/ProofOfStake/Minimal.hs``](Enqm/ProofOfStake/Minimal.hs) |
+|     ``230``| ``Feb``| ``15``| ``15:50``| [``Enqm/Serialization``](Enqm/Serialization) |
+|     ``34``| ``Feb``| ``15``| ``15:47``| [``Enqm/Serialization.hs``](Enqm/Serialization.hs) |
+|     ``42``| ``Feb``| ``15``| ``15:39``| [``Enqm/Serialization/Generics.hs``](Enqm/Serialization/Generics.hs) |
+|     ``74``| ``Feb``| ``15``| ``15:53``| [``Enqm/Serialization/Presence``](Enqm/Serialization/Presence) |
+|     ``43``| ``Feb``| ``15``| ``15:49``| [``Enqm/Serialization/Presence.hs``](Enqm/Serialization/Presence.hs) |
+|     ``48``| ``Feb``| ``15``| ``15:51``| [``Enqm/Serialization/Presence/Block.hs``](Enqm/Serialization/Presence/Block.hs) |
+|     ``49``| ``Feb``| ``15``| ``15:53``| [``Enqm/Serialization/Presence/Packet.hs``](Enqm/Serialization/Presence/Packet.hs) |
+|     ``49``| ``Feb``| ``15``| ``15:50``| [``Enqm/Serialization/Presence/Puzzle.hs``](Enqm/Serialization/Presence/Puzzle.hs) |
+|     ``51``| ``Feb``| ``15``| ``15:52``| [``Enqm/Serialization/Presence/Subgraph.hs``](Enqm/Serialization/Presence/Subgraph.hs) |
+|     ``40``| ``Feb``| ``15``| ``15:42``| [``Enqm/Serialization/ForNetwork.hs``](Enqm/Serialization/ForNetwork.hs) |
+|     ``44``| ``Feb``| ``15``| ``15:43``| [``Enqm/Serialization/ForStorage.hs``](Enqm/Serialization/ForStorage.hs) |
+|     ``76``| ``Feb``| ``15``| ``15:46``| [``Enqm/Serialization/Compression``](Enqm/Serialization/Compression) |
+|     ``45``| ``Feb``| ``15``| ``15:48``| [``Enqm/Serialization/Compression.hs``](Enqm/Serialization/Compression.hs) |
+|     ``55``| ``Feb``| ``15``| ``15:46``| [``Enqm/Serialization/Compression/Transfers.hs``](Enqm/Serialization/Compression/Transfers.hs) |
+|     ``49``| ``Feb``| ``15``| ``15:45``| [``Enqm/Serialization/Compression/PublicKeys.hs``](Enqm/Serialization/Compression/PublicKeys.hs) |
+|     ``56``| ``Feb``| ``15``| ``15:46``| [``Enqm/Serialization/Compression/Signatures.hs``](Enqm/Serialization/Compression/Signatures.hs) |
+|     ``47``| ``Feb``| ``15``| ``15:39``| [``Enqm/Serialization/DirectHashing.hs``](Enqm/Serialization/DirectHashing.hs) |
+|     ``48``| ``Feb``| ``15``| ``15:38``| [``Enqm/Serialization/TemplateHaskell.hs``](Enqm/Serialization/TemplateHaskell.hs) |
 |     ``18``| ``Feb``| ``15``| ``14:18``| [``Enqm/Confidentiality``](Enqm/Confidentiality) |
 |     ``42``| ``Feb``| ``15``| ``14:18``| [``Enqm/Confidentiality/Wallet.hs``](Enqm/Confidentiality/Wallet.hs) |
 |     ``30``| ``Feb``| ``13``| ``22:00``| [``Enqm/ProofOfActivity``](Enqm/ProofOfActivity) |
