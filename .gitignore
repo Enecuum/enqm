@@ -157,9 +157,11 @@ exit
 !Enqm/Consensus.hs
 !Enqm/Consensus/Block.hs
 !Enqm/Consensus/Solver.hs
+!Enqm/Consensus/Security.hs
 !Enqm/Consensus/Macroblock.hs
 !Enqm/Consensus/Microblock.hs
 !Enqm/Consensus/Publicators.hs
+!Enqm/Consensus/Verification.hs
 !Enqm/Macroblock
 !Enqm/Macroblock.hs
 !Enqm/Macroblock/Security.hs

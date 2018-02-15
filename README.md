@@ -411,13 +411,15 @@
 |     ``41``| ``Feb``| ``15``| ``15:35``| [``Enqm/Storage/Manager/Quotas.hs``](Enqm/Storage/Manager/Quotas.hs) |
 |     ``50``| ``Feb``| ``15``| ``15:36``| [``Enqm/Storage/Manager/AllocationPlan.hs``](Enqm/Storage/Manager/AllocationPlan.hs) |
 |     ``51``| ``Feb``| ``15``| ``15:37``| [``Enqm/Storage/Manager/DataParameters.hs``](Enqm/Storage/Manager/DataParameters.hs) |
-|     ``114``| ``Feb``| ``15``| ``16:06``| [``Enqm/Consensus``](Enqm/Consensus) |
+|     ``166``| ``Feb``| ``15``| ``16:10``| [``Enqm/Consensus``](Enqm/Consensus) |
 |     ``28``| ``Feb``| ``15``| ``14:15``| [``Enqm/Consensus.hs``](Enqm/Consensus.hs) |
 |     ``35``| ``Feb``| ``15``| ``16:05``| [``Enqm/Consensus/Block.hs``](Enqm/Consensus/Block.hs) |
 |     ``36``| ``Feb``| ``15``| ``16:06``| [``Enqm/Consensus/Solver.hs``](Enqm/Consensus/Solver.hs) |
+|     ``38``| ``Feb``| ``15``| ``16:09``| [``Enqm/Consensus/Security.hs``](Enqm/Consensus/Security.hs) |
 |     ``40``| ``Feb``| ``15``| ``16:04``| [``Enqm/Consensus/Macroblock.hs``](Enqm/Consensus/Macroblock.hs) |
 |     ``40``| ``Feb``| ``15``| ``16:05``| [``Enqm/Consensus/Microblock.hs``](Enqm/Consensus/Microblock.hs) |
 |     ``40``| ``Feb``| ``15``| ``16:05``| [``Enqm/Consensus/Publicators.hs``](Enqm/Consensus/Publicators.hs) |
+|     ``42``| ``Feb``| ``15``| ``16:10``| [``Enqm/Consensus/Verification.hs``](Enqm/Consensus/Verification.hs) |
 |     ``76``| ``Feb``| ``14``| ``08:38``| [``Enqm/Macroblock``](Enqm/Macroblock) |
 |     ``31``| ``Feb``| ``13``| ``22:17``| [``Enqm/Macroblock.hs``](Enqm/Macroblock.hs) |
 |     ``39``| ``Feb``| ``13``| ``22:18``| [``Enqm/Macroblock/Security.hs``](Enqm/Macroblock/Security.hs) |
