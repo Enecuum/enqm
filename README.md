@@ -7,7 +7,7 @@ enqin.hs is designed to provide a shell to access the existing functionality of 
 
 ## Map of the Internal Folder Structure
 
-| Size |    | Date |    | Path |
+| Size | Month | Day | Time | Path |
 |----|----|----|----|-------|
 |     ``984``| ``Feb``| ``15``| ``20:52``| [``Enqm``](Enqm) |
 |     ``20``| ``Feb``| ``13``| ``18:17``| [``Enqm.hs``](Enqm.hs) |
