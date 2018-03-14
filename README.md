@@ -1,9 +1,10 @@
 ## ENQM
 
-ENQM is a complex tool to index the project, build a map of existing features, trace everyday changes and build metrics, and access these features. 
+ENQM is a complex tool for future indexing of the project, building a map of existing features, tracing everyday changes and building metrics, and accessing these features. 
 
 enqin.hs is designed to provide a shell to access the existing functionality of the project, make calls to the API and run tests.
 
+The tool is currently under development 
 
 ## Map of the Internal Folder Structure
 
