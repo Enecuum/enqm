@@ -49,7 +49,7 @@ enqin: enqin.hs
 	ghc.bak --make $< -o $@
 
 Enqm/API/UnixShell/Generated/bin/%: Enqm/API/UnixShell/Generated/%.hs
-	@diff $< Enqm/API/UnixShell/Generated/getLocalControl.hs && ln -sf getLocalControl $@ || ghc --make $< -o $@
+	@diff $< Enqm/API/UnixShell/Generated/getLocalControl.hs && ln -sf getLocalControl $@ || ghc.bak --make $< -o $@
 
 clean:
 	find -name "*.o" -or -name "*.hi" -exec rm {} \;
