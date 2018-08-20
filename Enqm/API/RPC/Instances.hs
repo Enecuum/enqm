@@ -15,6 +15,8 @@
 {-# LANGUAGE TypeOperators             #-}
 {-# LANGUAGE TypeSynonymInstances      #-}
 {-# LANGUAGE UndecidableInstances      #-}
+{-# LANGUAGE GADTs #-}
+{-# LANGUAGE TemplateHaskell #-}
 
 module Enqm.API.RPC.Instances where
 
@@ -22,6 +24,7 @@ import Enqm.API.RPC
 import GHC.Generics
 import Data.Typeable
 import GHC.TypeLits ( Nat, Symbol, KnownSymbol, KnownNat, symbolVal, natVal )
+import Generics.Instant.TH
 
 instance Show ApiRpcMethods where
   show = test
@@ -34,6 +37,12 @@ data Kuku
   | CDSc { cdcd :: Integer, cdwcd :: String }
   | DDDD Int
  deriving (Generic)
+
+data Test01 a where
+  QQQQQ  :: Int -> Test01 ()
+  DDDDDD :: Double -> Int -> Test01 Int
+  BAASD  :: Double -> Int -> Test01 Int
+$(deriveAll ''Test01)
 
 
 instance Test V1 where cnm _  = "V1"
